@@ -1,0 +1,401 @@
+
+2012-11-29 16:34:01,442 WARN  taobao.remoting - 
+服务器已启动：0.0.0.0/0.0.0.0:12200
+
+2012-11-29 16:34:01,442 WARN  taobao.hsf - 
+获取Executor出错，该接口已经废弃掉了，为什么还能调用到？
+
+2012-11-29 16:34:01,442 WARN  taobao.hsf - 
+获取Executor出错，该接口已经废弃掉了，为什么还能调用到？
+
+2012-11-29 16:34:01,442 WARN  taobao.hsf - 
+------------------------------------
+ HSF服务器已启动: 12200
+------------------------------------
+ I/O线程数     : 3
+ 处理最小线程数 : 10
+ 处理最大线程数 : 600
+------------------------------------
+
+2012-11-29 16:34:01,443 ERROR taobao.hsf - 
+[AppInfoUtils] Get application name failed, file not found: E:\project%20file\eclipse\learn\experiment\target\classes
+
+2012-11-29 16:34:01,443 ERROR taobao.hsf - 
+[Grouping Component] Can not subscribe grouping rule: appName is null.
+
+2012-11-29 16:34:01,551 INFO  config.client - 
+[Global] Logger is initialized.
+
+2012-11-29 16:34:01,552 INFO  config.client - 
+[Global] Logger is initialized along the root file appender: E:\project file\eclipse\learn\experiment\config.client.log
+
+2012-11-29 16:34:01,851 INFO  config.client - 
+[domain-ips] [110.75.69.8, 10.232.16.8]
+
+2012-11-29 16:34:01,851 INFO  config.client - 
+[cache-ips] [10.232.16.8, 10.232.16.9]
+
+2012-11-29 16:34:01,851 INFO  config.client - 
+########## environment ok.
+
+2012-11-29 16:34:04,559 INFO  config.client - 
+[Registrar] Register new publisher (HSFProvider-m.tool.net.test.sayable:1.0.0.daily.1) for data (m.tool.net.test.sayable:1.0.0.daily / null).
+
+2012-11-29 16:34:04,622 INFO  config.client - 
+[Publish] dataId=m.tool.net.test.sayable:1.0.0.daily, clientId=HSFProvider-m.tool.net.test.sayable:1.0.0.daily.1, datumId=null
+
+2012-11-29 16:34:04,623 INFO  taobao.hsf - 
+接口[m.tool.net.test.sayable]版本[1.0.0.daily]发布为HSF服务成功！
+
+2012-11-29 16:34:04,623 INFO  config.client - 
+[Global] Deliverer thread is starting...
+
+2012-11-29 16:34:04,626 INFO  config.client - 
+[Deliver] dataId=m.tool.net.test.sayable:1.0.0.daily, clientId=HSFProvider-m.tool.net.test.sayable:1.0.0.daily.1, datumId=null
+
+2012-11-29 16:34:04,627 INFO  config.client - 
+[Global] Connecting to servers...
+
+2012-11-29 16:34:04,632 INFO  config.client - 
+[init-subscriber] Subscriber (com.taobao.config.serverlist, DEFAULT_GROUP, com.taobao.config.client.ServerListSynchronizer.1), dataSize=2
+
+2012-11-29 16:34:04,634 INFO  config.client - 
+[Cluster] Server list is updated. (2 servers)
+
+2012-11-29 16:34:04,634 INFO  config.client - 
+[Global] Connecting to 10.232.16.9:9600...
+
+2012-11-29 16:34:04,926 INFO  config.client - 
+[Global] Successfully connected to server: 10.232.16.9:9600
+
+2012-11-29 16:34:04,946 INFO  config.client - 
+[Reg] Registration of Publisher (HSFProvider-m.tool.net.test.sayable:1.0.0.daily.1 for m.tool.net.test.sayable:1.0.0.daily) in group daily is accepted.
+
+2012-11-29 16:34:04,946 INFO  config.client - 
+[Publish-ok] data accepted. dataId=m.tool.net.test.sayable:1.0.0.daily, clientId=HSFProvider-m.tool.net.test.sayable:1.0.0.daily.1, datumId=null
+
+2012-11-29 16:34:04,953 INFO  config.client - 
+[Reg] Registration of Rollbackable Cacheable Subscriber (com.taobao.config.serverlist, DEFAULT_GROUP, com.taobao.config.client.ServerListSynchronizer.1) is accepted.
+
+2012-11-29 16:34:05,124 WARN  utils.LoggerInit - 
+成功为DiamondConfigDataLog添加Appender. 输出路径:E:\project file\eclipse\learn\experiment\diamond_config_data.log
+
+2012-11-29 16:34:05,129 INFO  utils.AppNameUtils - 
+The classpath is /E:/project%20file/eclipse/learn/experiment/target/classes/
+
+2012-11-29 16:34:05,130 ERROR utils.AppNameUtils - 
+没找到任何后缀名为“.ear”、“.spring”或“.war”的包
+
+2012-11-29 16:34:05,130 INFO  impl.DefaultDiamondSubscriber - 
+diamond client start:2012年11月29日   16:34:05
+
+2012-11-29 16:34:05,130 INFO  impl.DefaultDiamondSubscriber - 
+添加了DataID[com.taobao.hsf.redis]，其Group为HSF
+
+2012-11-29 16:34:05,984 INFO  config.client - 
+[Data] Received. (ID: com.taobao.config.serverlist, Revision: 3, Count: 2, String[0]: remoting://10.232.16.8:9600?priority=0)
+
+2012-11-29 16:34:05,984 INFO  config.client - 
+########## [snapshot-save] do not save on windows. com.taobao.config.serverlist, DEFAULT_GROUP
+
+2012-11-29 16:34:05,984 INFO  config.client - 
+########## [subscriber-update] Subscriber (com.taobao.config.serverlist, DEFAULT_GROUP, com.taobao.config.client.ServerListSynchronizer.1), revision=3, count=2
+
+2012-11-29 16:34:06,131 INFO  config.client - 
+[Notifier] Notifier thread is starting...
+
+2012-11-29 16:34:06,131 INFO  config.client - 
+[Notifier] Notify Subscriber (com.taobao.config.serverlist, DEFAULT_GROUP, com.taobao.config.client.ServerListSynchronizer.1)
+
+2012-11-29 16:34:08,199 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 16:34:08,233 INFO  processor.ServerAddressProcessor - 
+在同步获取服务器列表时，向日常ConfigServer服务器获取到了服务器列表
+
+2012-11-29 16:34:08,241 INFO  impl.DefaultDiamondSubscriber - 
+当前使用的域名有：[10.232.102.182, 10.232.102.183, 10.232.10.23, 10.232.12.32]
+
+2012-11-29 16:34:08,241 INFO  impl.DefaultDiamondSubscriber - 
+/diamond-server/config.co?dataId=com.taobao.hsf.redis&group=HSF
+
+2012-11-29 16:34:08,241 INFO  impl.DefaultDiamondSubscriber - 
+设定的获取配置数据的重试次数为：214748364
+
+2012-11-29 16:34:08,241 INFO  impl.DefaultDiamondSubscriber - 
+获取配置数据，第1次尝试, waitTime:0
+
+2012-11-29 16:34:08,444 INFO  jmx.DiamondClient - 
+探测到DataId:com.taobao.hsf.redis,group:HSF;第1次变化。
+
+2012-11-29 16:34:08,494 INFO  taobao.hsf - 
+[Redis client] Configuration information received: 10.232.13.28:6379
+
+2012-11-29 16:34:08,639 INFO  taobao.hsf - 
+[ServiceMetadata-m.tool.net.test.sayable:1.0.0.daily] Published OK.
+
+2012-11-29 16:34:08,639 INFO  impl.DefaultDiamondSubscriber - 
+diamond client start:2012年11月29日   16:34:08
+
+2012-11-29 16:34:08,639 INFO  impl.DefaultDiamondSubscriber - 
+添加了DataID[m.tool.net.test.sayable:1.0.0.daily.TPSRULE]，其Group为daily
+
+2012-11-29 16:34:08,639 INFO  impl.DefaultDiamondSubscriber - 
+/diamond-server/config.co?dataId=m.tool.net.test.sayable:1.0.0.daily.TPSRULE&group=daily
+
+2012-11-29 16:34:08,640 INFO  impl.DefaultDiamondSubscriber - 
+设定的获取配置数据的重试次数为：214748364
+
+2012-11-29 16:34:08,640 INFO  impl.DefaultDiamondSubscriber - 
+获取配置数据，第1次尝试, waitTime:0
+
+2012-11-29 16:34:08,644 WARN  impl.DefaultDiamondSubscriber - 
+没有找到DataID为:m.tool.net.test.sayable:1.0.0.daily.TPSRULE对应的配置信息
+
+2012-11-29 16:34:08,644 INFO  taobao.hsf - 
+[TPSRule Component] Received empty rule for service [m.tool.net.test.sayable:1.0.0.daily].
+
+2012-11-29 16:34:08,692 INFO  impl.DefaultDiamondSubscriber - 
+diamond client start:2012年11月29日   16:34:08
+
+2012-11-29 16:34:08,693 INFO  impl.DefaultDiamondSubscriber - 
+添加了DataID[m.tool.net.test.sayable:1.0.0.daily.RULES]，其Group为daily
+
+2012-11-29 16:34:08,693 INFO  impl.DefaultDiamondSubscriber - 
+/diamond-server/config.co?dataId=m.tool.net.test.sayable:1.0.0.daily.RULES&group=daily
+
+2012-11-29 16:34:08,693 INFO  impl.DefaultDiamondSubscriber - 
+设定的获取配置数据的重试次数为：214748364
+
+2012-11-29 16:34:08,693 INFO  impl.DefaultDiamondSubscriber - 
+获取配置数据，第1次尝试, waitTime:0
+
+2012-11-29 16:34:08,696 WARN  impl.DefaultDiamondSubscriber - 
+没有找到DataID为:m.tool.net.test.sayable:1.0.0.daily.RULES对应的配置信息
+
+2012-11-29 16:34:08,697 INFO  impl.DefaultDiamondSubscriber - 
+/diamond-server/config.co?dataId=m.tool.net.test.sayable:1.0.0.daily.RULES&group=daily
+
+2012-11-29 16:34:08,697 INFO  impl.DefaultDiamondSubscriber - 
+设定的获取配置数据的重试次数为：214748364
+
+2012-11-29 16:34:08,697 INFO  impl.DefaultDiamondSubscriber - 
+获取配置数据，第1次尝试, waitTime:0
+
+2012-11-29 16:34:08,700 WARN  impl.DefaultDiamondSubscriber - 
+没有找到DataID为:m.tool.net.test.sayable:1.0.0.daily.RULES对应的配置信息
+
+2012-11-29 16:34:08,700 WARN  taobao.hsf - 
+[Metadata Component] Received empty rule for service [m.tool.net.test.sayable:1.0.0.daily].
+
+2012-11-29 16:34:08,749 INFO  config.client - 
+[init-subscriber] no init data. Subscriber (m.tool.net.test.sayable:1.0.0.daily, daily, HSFSubscriber-m.tool.net.test.sayable:1.0.0.daily.1)
+
+2012-11-29 16:34:08,752 WARN  taobao.hsf - 
+成功生成对接口为[m.tool.net.test.sayable]版本为[1.0.0.daily]的HSF服务调用的代理！
+
+2012-11-29 16:34:08,756 INFO  config.client - 
+[Reg] Registration of Rollbackable Cacheable Subscriber (m.tool.net.test.sayable:1.0.0.daily, daily, HSFSubscriber-m.tool.net.test.sayable:1.0.0.daily.1) is accepted.
+
+2012-11-29 16:34:08,999 ERROR taobao.hsf - 
+[AppInfoUtils] Get application name failed, file not found: E:\project%20file\eclipse\learn\experiment\target\classes
+
+2012-11-29 16:34:09,156 ERROR taobao.hsf - 
+[AppInfoUtils] Get application name failed, file not found: E:\project%20file\eclipse\learn\experiment\target\classes
+
+2012-11-29 16:34:09,156 ERROR taobao.hsf - 
+[AppInfoUtils] Get application name failed, file not found: E:\project%20file\eclipse\learn\experiment\target\classes
+
+2012-11-29 16:34:09,156 ERROR taobao.hsf - 
+[AppInfoUtils] Get application name failed, file not found: E:\project%20file\eclipse\learn\experiment\target\classes
+
+2012-11-29 16:34:09,157 ERROR taobao.hsf - 
+[AppInfoUtils] Get application name failed, file not found: E:\project%20file\eclipse\learn\experiment\target\classes
+
+2012-11-29 16:34:09,157 ERROR taobao.hsf - 
+[AppInfoUtils] Get application name failed, file not found: E:\project%20file\eclipse\learn\experiment\target\classes
+
+2012-11-29 16:34:09,788 INFO  config.client - 
+[Data] Received. (ID: m.tool.net.test.sayable:1.0.0.daily, Revision: 2, Count: 1, String[0]: 10.13.106.5:12200?CLIENTRETRYCONNECTIONTIMES=3&CLIENTRETRYCONNECTIONTIMEOUT=1000&_SERIALIZETYPE=hessian&delayedPublish=false&_ID ...)
+
+2012-11-29 16:34:09,789 INFO  config.client - 
+########## [snapshot-save] do not save on windows. m.tool.net.test.sayable:1.0.0.daily, daily
+
+2012-11-29 16:34:09,789 INFO  config.client - 
+########## [subscriber-update] Subscriber (m.tool.net.test.sayable:1.0.0.daily, daily, HSFSubscriber-m.tool.net.test.sayable:1.0.0.daily.1), revision=2, count=1
+
+2012-11-29 16:34:09,789 INFO  config.client - 
+[Notifier] Notify Subscriber (m.tool.net.test.sayable:1.0.0.daily, daily, HSFSubscriber-m.tool.net.test.sayable:1.0.0.daily.1)
+
+2012-11-29 16:34:09,789 WARN  taobao.hsf - 
+服务名[m.tool.net.test.sayable:1.0.0.daily]可调用的目标地址列表为:
+  >>> 10.13.106.5:12200?CLIENTRETRYCONNECTIONTIMES=3&CLIENTRETRYCONNECTIONTIMEOUT=1000&_SERIALIZETYPE=hessian&delayedPublish=false&_IDLETIMEOUT=10&_TIMEOUT=3000
+
+
+2012-11-29 16:34:09,789 INFO  taobao.hsf - 
+[AddressBucket-m.tool.net.test.sayable:1.0.0.daily] Refresh: all amount [1], available amount [1], local preferred switch [off].
+
+2012-11-29 16:34:26,118 INFO  impl.DefaultDiamondSubscriber - 
+diamond client start:2012年11月29日   16:34:26
+
+2012-11-29 16:34:26,119 INFO  impl.DefaultDiamondSubscriber - 
+添加了DataID[HSF.GLOBAL.CONFIGURATION]，其Group为HSF
+
+2012-11-29 16:34:26,119 INFO  impl.DefaultDiamondSubscriber - 
+/diamond-server/config.co?dataId=HSF.GLOBAL.CONFIGURATION&group=HSF
+
+2012-11-29 16:34:26,119 INFO  impl.DefaultDiamondSubscriber - 
+设定的获取配置数据的重试次数为：214748364
+
+2012-11-29 16:34:26,119 INFO  impl.DefaultDiamondSubscriber - 
+获取配置数据，第1次尝试, waitTime:0
+
+2012-11-29 16:34:26,125 INFO  jmx.DiamondClient - 
+探测到DataId:HSF.GLOBAL.CONFIGURATION,group:HSF;第1次变化。
+
+2012-11-29 16:34:26,126 INFO  taobao.hsf - 
+[Global Configuration] Global rule received [@<rules><virtualCm></virtualCm></rules>]
+
+2012-11-29 16:34:30,817 INFO  taobao.hsf - 
+[Global Configuration] Global rule parsed OK: GlobalRuleHolder
+EagleEyeRule : null
+[VirtualCmRule] []
+
+
+2012-11-29 16:34:30,817 WARN  taobao.hsf - 
+[Global Configuration] Can not set eagleeye switch: application name is null.
+
+2012-11-29 16:34:30,817 INFO  taobao.hsf - 
+[AddressBucket-m.tool.net.test.sayable:1.0.0.daily] Refresh: all amount [1], available amount [1], local preferred switch [off].
+
+2012-11-29 16:39:10,252 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 16:43:56,537 ERROR taobao.hsf - 
+[AppInfoUtils] Get application name failed, file not found: E:\project%20file\eclipse\learn\experiment\target\classes
+
+2012-11-29 16:43:56,578 INFO  taobao.hsf - 
+[RuntimeInfo] {"_COMMON":{"publishDate":"2012-11-29 16:43:56 +0800"},"HSF":{"services_consumed":"m.tool.net.test.sayable:1.0.0.daily","services_provided":"{\"m.tool.net.test.sayable:1.0.0.daily\":[\"say~S\"]}","hsfSVNRevision":"","hsfVersion":"1.4.9.3","serverType":"unknown server","ip":"10.13.106.5"},"WebX":{"webxVersion":"not webx3"}}
+
+2012-11-29 16:43:56,615 INFO  taobao.hsf - 
+[RuntimeInfo] Runtime information published OK.
+
+2012-11-29 16:44:12,299 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 16:49:14,262 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 16:54:16,193 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 16:59:18,169 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 17:04:20,161 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 17:09:22,173 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 17:14:24,164 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 17:19:26,156 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 17:24:28,148 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 17:29:30,140 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 17:34:32,153 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 17:39:34,144 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 17:44:36,136 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 17:49:38,127 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 17:54:40,119 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 17:59:42,166 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 18:04:44,191 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 18:09:46,211 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 18:14:48,234 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 18:19:50,256 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 18:24:52,249 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 18:29:54,241 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 18:34:56,233 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 18:39:58,224 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 18:45:00,216 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 18:50:02,207 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 18:55:04,200 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 19:00:06,194 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 19:05:08,212 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 19:10:10,251 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 19:15:12,274 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 19:20:14,296 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 19:25:16,305 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 19:30:18,297 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 19:35:20,290 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 19:40:22,284 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 19:45:24,307 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 19:50:26,401 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 19:55:28,393 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms
+
+2012-11-29 20:00:30,384 ERROR processor.ServerAddressProcessor - 
+获取服务器地址列表信息Http异常,如果你是在日常环境，请忽略这个异常,configServerAddress=commonconfig.config-host.taobao.com,, org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 2000 ms

@@ -16,7 +16,6 @@ import m.tool.net.ServerClient;
 
 import org.springframework.beans.factory.FactoryBean;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
@@ -226,7 +225,7 @@ public class DynamicResource extends ServerClient {
 						provider = new HSFSpringProviderBean();
 						provider.setServiceInterface(interfaceName);
 						provider.setServiceGroup(app + "_group");
-						provider.setServiceVersion(app); // 通过服务器去区分调用
+						provider.setServiceVersion(app); // 閫氳繃鏈嶅姟鍣ㄥ幓鍖哄垎璋冪敤
 						provider.setTarget(getTarget());
 						provider.init();
 					}
@@ -373,14 +372,14 @@ public class DynamicResource extends ServerClient {
 
 	@Override
 	public void startUp() throws Exception {
-		// 资源分布
+		// 璧勬簮鍒嗗竷
 		ResRoute.addResInfo("m.ic.DynamicResource$keysservice", new ResInfo(
 				new String[] { "A" ,"B"}, ResType.KEY_RELATIVE, 0));
 
 		HSFEasyStarter.startFromPath("d:/hsf");
 		//atx = new ClassPathXmlApplicationContext("ctx-a.xml");
 		//btx = new ClassPathXmlApplicationContext("ctx-b.xml");
-		// 初始化
+		// 鍒濆鍖�
 		keysServiceRes fac = new keysServiceRes();
 		fac.setInterfaceName("m.ic.DynamicResource$keysservice");
 		fac.setVersion("1.0.0.daily");

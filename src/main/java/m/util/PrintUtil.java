@@ -17,6 +17,7 @@ public class PrintUtil {
 			s = ToStringBuilder.reflectionToString(o,
 					ToStringStyle.SIMPLE_STYLE);
 		}
+		s.indexOf("");
 		return s;
 	}
 

@@ -18,6 +18,8 @@ public class HsfTestSpring extends ServerClient {
 		HSFEasyStarter.startFromPath("d:/hsf");
 		server = new ClassPathXmlApplicationContext("app-server.xml");
 		client  =  new ClassPathXmlApplicationContext("app-client.xml");
+		p(server.getBeanDefinitionNames());
+		p(client.getBeanDefinitionNames());
 		p("start");
 	}
 

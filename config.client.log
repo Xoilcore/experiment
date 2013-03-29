@@ -1,0 +1,56 @@
+2012-11-29 16:34:01,551 INFO  - [Global] Logger is initialized.
+
+2012-11-29 16:34:01,552 INFO  - [Global] Logger is initialized along the root file appender: E:\project file\eclipse\learn\experiment\config.client.log
+
+2012-11-29 16:34:01,851 INFO  - [domain-ips] [110.75.69.8, 10.232.16.8]
+
+2012-11-29 16:34:01,851 INFO  - [cache-ips] [10.232.16.8, 10.232.16.9]
+
+2012-11-29 16:34:01,851 INFO  - ########## environment ok.
+
+2012-11-29 16:34:04,559 INFO  - [Registrar] Register new publisher (HSFProvider-m.tool.net.test.sayable:1.0.0.daily.1) for data (m.tool.net.test.sayable:1.0.0.daily / null).
+
+2012-11-29 16:34:04,622 INFO  - [Publish] dataId=m.tool.net.test.sayable:1.0.0.daily, clientId=HSFProvider-m.tool.net.test.sayable:1.0.0.daily.1, datumId=null
+
+2012-11-29 16:34:04,623 INFO  - [Global] Deliverer thread is starting...
+
+2012-11-29 16:34:04,626 INFO  - [Deliver] dataId=m.tool.net.test.sayable:1.0.0.daily, clientId=HSFProvider-m.tool.net.test.sayable:1.0.0.daily.1, datumId=null
+
+2012-11-29 16:34:04,627 INFO  - [Global] Connecting to servers...
+
+2012-11-29 16:34:04,632 INFO  - [init-subscriber] Subscriber (com.taobao.config.serverlist, DEFAULT_GROUP, com.taobao.config.client.ServerListSynchronizer.1), dataSize=2
+
+2012-11-29 16:34:04,634 INFO  - [Cluster] Server list is updated. (2 servers)
+
+2012-11-29 16:34:04,634 INFO  - [Global] Connecting to 10.232.16.9:9600...
+
+2012-11-29 16:34:04,926 INFO  - [Global] Successfully connected to server: 10.232.16.9:9600
+
+2012-11-29 16:34:04,946 INFO  - [Reg] Registration of Publisher (HSFProvider-m.tool.net.test.sayable:1.0.0.daily.1 for m.tool.net.test.sayable:1.0.0.daily) in group daily is accepted.
+
+2012-11-29 16:34:04,946 INFO  - [Publish-ok] data accepted. dataId=m.tool.net.test.sayable:1.0.0.daily, clientId=HSFProvider-m.tool.net.test.sayable:1.0.0.daily.1, datumId=null
+
+2012-11-29 16:34:04,953 INFO  - [Reg] Registration of Rollbackable Cacheable Subscriber (com.taobao.config.serverlist, DEFAULT_GROUP, com.taobao.config.client.ServerListSynchronizer.1) is accepted.
+
+2012-11-29 16:34:05,984 INFO  - [Data] Received. (ID: com.taobao.config.serverlist, Revision: 3, Count: 2, String[0]: remoting://10.232.16.8:9600?priority=0)
+
+2012-11-29 16:34:05,984 INFO  - ########## [snapshot-save] do not save on windows. com.taobao.config.serverlist, DEFAULT_GROUP
+
+2012-11-29 16:34:05,984 INFO  - ########## [subscriber-update] Subscriber (com.taobao.config.serverlist, DEFAULT_GROUP, com.taobao.config.client.ServerListSynchronizer.1), revision=3, count=2
+
+2012-11-29 16:34:06,131 INFO  - [Notifier] Notifier thread is starting...
+
+2012-11-29 16:34:06,131 INFO  - [Notifier] Notify Subscriber (com.taobao.config.serverlist, DEFAULT_GROUP, com.taobao.config.client.ServerListSynchronizer.1)
+
+2012-11-29 16:34:08,749 INFO  - [init-subscriber] no init data. Subscriber (m.tool.net.test.sayable:1.0.0.daily, daily, HSFSubscriber-m.tool.net.test.sayable:1.0.0.daily.1)
+
+2012-11-29 16:34:08,756 INFO  - [Reg] Registration of Rollbackable Cacheable Subscriber (m.tool.net.test.sayable:1.0.0.daily, daily, HSFSubscriber-m.tool.net.test.sayable:1.0.0.daily.1) is accepted.
+
+2012-11-29 16:34:09,788 INFO  - [Data] Received. (ID: m.tool.net.test.sayable:1.0.0.daily, Revision: 2, Count: 1, String[0]: 10.13.106.5:12200?CLIENTRETRYCONNECTIONTIMES=3&CLIENTRETRYCONNECTIONTIMEOUT=1000&_SERIALIZETYPE=hessian&delayedPublish=false&_ID ...)
+
+2012-11-29 16:34:09,789 INFO  - ########## [snapshot-save] do not save on windows. m.tool.net.test.sayable:1.0.0.daily, daily
+
+2012-11-29 16:34:09,789 INFO  - ########## [subscriber-update] Subscriber (m.tool.net.test.sayable:1.0.0.daily, daily, HSFSubscriber-m.tool.net.test.sayable:1.0.0.daily.1), revision=2, count=1
+
+2012-11-29 16:34:09,789 INFO  - [Notifier] Notify Subscriber (m.tool.net.test.sayable:1.0.0.daily, daily, HSFSubscriber-m.tool.net.test.sayable:1.0.0.daily.1)
+

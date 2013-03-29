@@ -20,4 +20,12 @@
 		<property name="target" ref="birdImpl" />
 	</bean>
 
+	
+
+	<bean id="test" class="m.tool.net.test.TestClass">
+		<property name="bird" ref="birdImpl" />
+	</bean>
+
+
+
 </beans>

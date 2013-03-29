@@ -9,12 +9,17 @@
         http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd
     	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd"
 	default-autowire="byName">
-	<bean id="bird"
-		class="com.taobao.hsf.app.spring.util.HSFSpringConsumerBean"
+	<bean id="bird" class="com.taobao.hsf.app.spring.util.HSFSpringConsumerBean"
 		init-method="init">
 		<property name="interfaceName" value="m.tool.net.test.sayable" />
 		<property name="group" value="daily" />
 		<property name="version" value="1.0.0.daily" />
 	</bean>
+	
+
+	<bean id="test" class="m.tool.net.test.TestClass">
+		<property name="bird" ref="bird" />
+	</bean>
+
 
 </beans>
