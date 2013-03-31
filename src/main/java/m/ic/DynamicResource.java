@@ -103,7 +103,7 @@ public class DynamicResource extends ServerClient {
 
 		public static Set<dynamic> resSet = Sets.newHashSet();
 
-		public abstract static class dynamic implements FactoryBean,
+		public abstract static class dynamic implements FactoryBean<Object>,
 				InvocationHandler {
 
 			public dynamic() {
@@ -225,7 +225,7 @@ public class DynamicResource extends ServerClient {
 						provider = new HSFSpringProviderBean();
 						provider.setServiceInterface(interfaceName);
 						provider.setServiceGroup(app + "_group");
-						provider.setServiceVersion(app); // 閫氳繃鏈嶅姟鍣ㄥ幓鍖哄垎璋冪敤
+						provider.setServiceVersion(app); // 闁俺绻冮張宥呭閸ｃ劌骞撻崠鍝勫瀻鐠嬪啰鏁�
 						provider.setTarget(getTarget());
 						provider.init();
 					}
@@ -372,14 +372,14 @@ public class DynamicResource extends ServerClient {
 
 	@Override
 	public void startUp() throws Exception {
-		// 璧勬簮鍒嗗竷
+		// 鐠у嫭绨崚鍡楃
 		ResRoute.addResInfo("m.ic.DynamicResource$keysservice", new ResInfo(
-				new String[] { "A" ,"B"}, ResType.KEY_RELATIVE, 0));
+				new String[] { "A", "B" }, ResType.KEY_RELATIVE, 0));
 
 		HSFEasyStarter.startFromPath("d:/hsf");
-		//atx = new ClassPathXmlApplicationContext("ctx-a.xml");
-		//btx = new ClassPathXmlApplicationContext("ctx-b.xml");
-		// 鍒濆鍖�
+		// atx = new ClassPathXmlApplicationContext("ctx-a.xml");
+		// btx = new ClassPathXmlApplicationContext("ctx-b.xml");
+		// 閸掓繂顬婇崠锟�
 		keysServiceRes fac = new keysServiceRes();
 		fac.setInterfaceName("m.ic.DynamicResource$keysservice");
 		fac.setVersion("1.0.0.daily");

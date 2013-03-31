@@ -13,7 +13,6 @@ import m.ic.DynamicResource.ResRoute.ResInfo;
 import m.ic.DynamicResource.ResManager;
 import m.ic.DynamicResource.ResRoute;
 import m.ic.DynamicResource.ResType;
-import m.ic.DynamicResource.StoreType;
 import m.ic.DynamicResource.keysservice;
 import m.ic.DynamicResource.Key;
 import m.tool.net.ServerClient;

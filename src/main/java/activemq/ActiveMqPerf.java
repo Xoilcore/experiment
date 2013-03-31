@@ -1,25 +1,20 @@
 package activemq;
 
-import java.util.Map;
 import java.util.Queue;
 
 import javax.jms.Connection;
-import javax.jms.DeliveryMode;
 import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.MessageConsumer;
 import javax.jms.MessageListener;
 import javax.jms.MessageProducer;
-import javax.jms.ObjectMessage;
 import javax.jms.Session;
-import javax.jms.TextMessage;
 
 import static m.util.PrintUtil.*;
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.activemq.broker.BrokerService;
 import org.apache.activemq.command.ActiveMQQueue;
 
-import com.google.common.collect.Maps;
 import com.google.common.collect.Queues;
 
 import m.tool.net.ServerClient;
@@ -118,7 +113,7 @@ public class ActiveMqPerf extends ServerClient implements MessageListener {
 						try {
 							// Thread.sleep(10);
 							// sendFps.step();
-							Message m = queues[idx].session
+							/*Message m = */queues[idx].session
 									.createTextMessage(System
 											.currentTimeMillis() + ":" + text);
 							// queues[idx].send(m);
@@ -191,7 +186,7 @@ public class ActiveMqPerf extends ServerClient implements MessageListener {
 				memQueue.add(arg0);
 			}
 		}
-		ObjectMessage m = null;
+		//ObjectMessage m = null;
 
 	}
 

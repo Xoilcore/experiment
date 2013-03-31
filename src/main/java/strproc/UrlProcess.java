@@ -4,7 +4,6 @@ import static m.util.PrintUtil.*;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
-import java.net.URLEncoder;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Matcher;
@@ -23,7 +22,7 @@ public class UrlProcess {
 		p(cleanUrl("www.xdsdfx.xx?abc.jsp?"));
 		p(cleanUrl("www.xfasdgx.xx/abc.jsp?"));
 		p(cleanUrl("http://www.xx.xx/"));
-		p(Pattern.matches("[0-9|a-z|A-Z]*", "123aBÄã"));
+		p(Pattern.matches("[0-9|a-z|A-Z]*", "123aBï¿½ï¿½"));
 		p(Pattern.matches("[a-z|A-Z]{3}[0-9]{3}[a-z|A-Z]{3}", "aaa1423aBc"));
 		p(Pattern.matches("[1-9|\\.]*", "1.1.1.1"));
 		p("--");
@@ -40,7 +39,7 @@ public class UrlProcess {
 		String[] ends = new String[] { "&nbsp", "&lt", "&nbsp;", "&lt;",
 				"&amp", "&amp;" };
 		p(URLDecoder
-				.decode("http://taodaovs1.%6E%65%74%2E%74%66/member/item.htm?id=00012Á´½Ó",
+				.decode("http://taodaovs1.%6E%65%74%2E%74%66/member/item.htm?id=00012ï¿½ï¿½ï¿½ï¿½",
 						"gbk"));
 
 		boolean loop = true;

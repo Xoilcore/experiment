@@ -1,7 +1,5 @@
 import static m.util.PrintUtil.*;
 
-import java.io.StreamTokenizer;
-import java.net.InetAddress;
 
 public class test {
 
@@ -22,7 +20,6 @@ public class test {
 		}
 		p(userUmidLoginDays);
 		
-		StreamTokenizer stk;
 	}
 
 }
