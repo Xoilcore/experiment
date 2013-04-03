@@ -2,6 +2,7 @@ package m.util;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -63,5 +64,29 @@ public class FileUtils {
 		Object obj = oi.readObject();
 		oi.close();
 		return obj;
+	}
+
+	public static void write(String pathName, byte[] datas) throws IOException {
+		int k1 = pathName.lastIndexOf("/");
+		int k2 = pathName.lastIndexOf("\\");
+		int k = k1 > k2 ? k1 : k2;
+		String path = pathName.substring(0, k + 1);
+		String fileName = pathName.substring(k + 1);
+		write(path, fileName, datas);
+	}
+
+	public static void write(String path, String name, byte[] datas)
+			throws IOException {
+		File dir = new File(path);
+		if (!dir.exists())
+			dir.mkdirs();
+		if (!path.endsWith("/") && !path.endsWith("\\")) {
+			path += File.pathSeparator;
+		}
+		String filePath = path + name;
+		File f = new File(filePath);
+		FileOutputStream os = new FileOutputStream(f);
+		os.write(datas);
+		os.close();
 	}
 }
