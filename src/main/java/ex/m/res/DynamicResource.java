@@ -1,4 +1,4 @@
-package m.ic;
+package ex.m.res;
 
 import static m.util.PrintUtil.*;
 
@@ -10,8 +10,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import m.ic.DynamicResource.ResManager.keysServiceRes;
-import m.ic.DynamicResource.ResRoute.ResInfo;
 import m.tool.net.ServerClient;
 
 import org.springframework.beans.factory.FactoryBean;
@@ -23,6 +21,9 @@ import com.google.common.collect.Sets;
 import com.taobao.hsf.app.spring.util.HSFSpringConsumerBean;
 import com.taobao.hsf.app.spring.util.HSFSpringProviderBean;
 import com.taobao.hsf.hsfunit.HSFEasyStarter;
+
+import ex.m.res.DynamicResource.ResManager.keysServiceRes;
+import ex.m.res.DynamicResource.ResRoute.ResInfo;
 
 public class DynamicResource extends ServerClient {
 

@@ -1,26 +1,29 @@
-package m.ic;
+package ex.m.res;
+
+import static m.util.PrintUtil.p;
 
 import java.util.List;
 import java.util.Map;
 
-import org.apache.commons.lang.builder.ToStringBuilder;
-import org.apache.commons.lang.builder.ToStringStyle;
-
-import static m.util.PrintUtil.*;
-import m.ic.DynamicResource.ResManager.dynamic;
-import m.ic.DynamicResource.ResManager.keysServiceRes;
-import m.ic.DynamicResource.ResRoute.ResInfo;
-import m.ic.DynamicResource.ResManager;
-import m.ic.DynamicResource.ResRoute;
-import m.ic.DynamicResource.ResType;
-import m.ic.DynamicResource.keysservice;
-import m.ic.DynamicResource.Key;
 import m.tool.net.ServerClient;
 import m.util.MMUtil;
+
+import org.apache.commons.lang.builder.ToStringBuilder;
+import org.apache.commons.lang.builder.ToStringStyle;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.taobao.hsf.hsfunit.HSFEasyStarter;
+
+import ex.m.res.DynamicResource.ResManager;
+import ex.m.res.DynamicResource.ResManager.dynamic;
+import ex.m.res.DynamicResource.ResManager.keysServiceRes;
+import ex.m.res.DynamicResource.ResRoute;
+import ex.m.res.DynamicResource.ResRoute.ResInfo;
+import ex.m.res.DynamicResource.ResType;
+import ex.m.res.DynamicResource.Key;
+
+import ex.m.res.DynamicResource.keysservice;
 
 public class SessionStoreTest extends ServerClient {
 
