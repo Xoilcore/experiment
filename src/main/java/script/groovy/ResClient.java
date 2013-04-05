@@ -32,6 +32,7 @@ public class ResClient {
 			write = true;
 		}
 
+		
 		if (is == null)
 			throw new FileNotFoundException();
 
