@@ -1,5 +1,6 @@
 package w.util;
 
+import java.io.IOException;
 import java.util.Iterator;
 import weka.core.tokenizers.Tokenizer;
 
@@ -36,7 +37,11 @@ public class IkTokenizer extends Tokenizer {
 
 	@Override
 	public void tokenize(String content) {
-		itr = WHelper.ikSeg(content).iterator();
+		try {
+			itr = WHelper.ikSeg(content).iterator();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 }

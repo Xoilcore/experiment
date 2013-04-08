@@ -1,5 +1,6 @@
 package w.util;
 
+import java.io.IOException;
 import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +10,8 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.tokenattributes.TermAttribute;
+import org.wltea.analyzer.IKSegmentation;
+import org.wltea.analyzer.Lexeme;
 import org.wltea.analyzer.lucene.IKAnalyzer;
 
 import com.google.common.collect.Lists;
@@ -102,8 +105,9 @@ public class WHelper {
 
 	/**
 	 * @param args
+	 * @throws IOException
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		Instances insts = WHelper.translateFromList(
 				Lists.newArrayList(new String[] { "a,2,c", "a1,3.14,c1",
 						"a2,2324324,234234" }), null);
@@ -113,7 +117,7 @@ public class WHelper {
 		System.out.println(ikSeg(str));
 	}
 
-	public static List<String> ikSeg(String doc) {
+	public static List<String> ikseg2(String doc) {
 
 		List<String> words = new ArrayList<String>();
 		if (StringUtils.isBlank(doc))
@@ -121,7 +125,6 @@ public class WHelper {
 		// 使用最小粒度分割
 		Analyzer analyser = new IKAnalyzer(false);
 
-		
 		TokenStream tokenStream = analyser.tokenStream("content",
 				new StringReader(doc));
 
@@ -137,6 +140,20 @@ public class WHelper {
 			e.printStackTrace();
 		}
 
+		return words;
+	}
+
+	public static List<String> ikSeg(String doc) throws IOException {
+		List<String> words = new ArrayList<String>();
+		if (doc == null || doc.isEmpty()) {
+			return words;
+		}
+		StringReader reader = new StringReader(doc);
+		IKSegmentation ik = new IKSegmentation(reader, true);// 当为true时，分词器进行最大词长切分
+		Lexeme lexeme = null;
+		while ((lexeme = ik.next()) != null) {
+			words.add(lexeme.getLexemeText());
+		}
 		return words;
 	}
 }
