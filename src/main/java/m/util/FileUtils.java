@@ -13,6 +13,9 @@ import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.UnsupportedEncodingException;
+import java.util.List;
+
+import com.google.common.collect.Lists;
 
 public class FileUtils {
 
@@ -88,5 +91,18 @@ public class FileUtils {
 		FileOutputStream os = new FileOutputStream(f);
 		os.write(datas);
 		os.close();
+	}
+
+	public static List<String> eachLines(String f, String encode)
+			throws IOException {
+		BufferedReader br = getFileReader(f, encode);
+		List<String> lines = Lists.newArrayList();
+		String line = null;
+		while ((line = br.readLine()) != null) {
+			if (!line.isEmpty()) {
+				lines.add(line);
+			}
+		}
+		return lines;
 	}
 }

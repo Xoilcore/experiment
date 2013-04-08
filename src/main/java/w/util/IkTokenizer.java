@@ -1,8 +1,6 @@
 package w.util;
 
 import java.util.Iterator;
-import java.util.List;
-
 import weka.core.tokenizers.Tokenizer;
 
 public class IkTokenizer extends Tokenizer {
