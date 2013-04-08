@@ -1,5 +1,7 @@
 package m.util;
 
+import java.util.List;
+
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
 
@@ -11,13 +13,12 @@ public class PrintUtil {
 
 	public static String reflectToString(Object o) {
 		String s = null;
-		if (o instanceof String) {
+		if (o instanceof String || o instanceof List) {
 			s = o.toString();
 		} else {
 			s = ToStringBuilder.reflectionToString(o,
 					ToStringStyle.SIMPLE_STYLE);
 		}
-		s.indexOf("");
 		return s;
 	}
 

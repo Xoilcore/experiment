@@ -14,12 +14,16 @@ public class ClusterUse {
 
 	public static void main(String[] args) throws Exception {
 
-		List<String> inputStrs = FileUtils.eachLines("D:/weka/content_2.txt",
-				"gb2312");
+		List<String> inputStrs = FileUtils.eachLines("w/c/ww.txt", "utf-8");
+		int max = 40;
+
 		for (int i = 0; i < inputStrs.size(); i++) {
 			String str = inputStrs.get(i);
 			inputStrs.set(i,
 					str.substring(0, str.length() < 40 ? str.length() : 40));
+			if (i > max)
+				break;
+			p(str);
 		}
 
 		Instances dataset = WHelper
@@ -37,7 +41,7 @@ public class ClusterUse {
 		// EM cluster=new EM();
 		cluster.setOptions(new String[] { "-N", "4", "-S", "8000" });
 		cluster.setNumClusters(6);
-		cluster.buildClusterer(dataset);
+		//cluster.buildClusterer(dataset);
 		p(cluster.displayStdDevsTipText());
 
 		ClusterEvaluation ce = new ClusterEvaluation();
