@@ -112,4 +112,16 @@ public class FileUtils {
 		}
 		return lines;
 	}
+
+	public static List<String> eachLines(String f) throws IOException {
+		BufferedReader br = getFileReader(f);
+		List<String> lines = Lists.newArrayList();
+		String line = null;
+		while ((line = br.readLine()) != null) {
+			if (!line.isEmpty()) {
+				lines.add(line);
+			}
+		}
+		return lines;
+	}
 }
