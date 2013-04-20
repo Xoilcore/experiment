@@ -14,6 +14,7 @@ import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.UnsupportedEncodingException;
+import java.net.URL;
 import java.util.List;
 
 import com.google.common.collect.Lists;
@@ -124,4 +125,10 @@ public class FileUtils {
 		}
 		return lines;
 	}
+
+	public static String getResourceHome() {
+		URL url = FileUtils.class.getClassLoader().getResource("util.flag");
+		return url.getPath().replaceAll("util.flag", "");
+	}
+
 }
