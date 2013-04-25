@@ -29,6 +29,12 @@
 		</profile>
 	</profiles>
 	<dependencies>
+
+		<dependency>
+			<groupId>com.taobao.kfc</groupId>
+			<artifactId>core</artifactId>
+			<version>3.0.2-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>com.taobao.aqcenter</groupId>
 			<artifactId>aqcenter-common</artifactId>
