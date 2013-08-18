@@ -32,6 +32,10 @@ public abstract class ServerClient {
 		start(0, sc);
 	}
 
+	public int getCurrentRunTime() {
+		return runCount;
+	}
+
 	public static void start(int i, ServerClient sc) {
 		inst = sc;
 		inst.RunTimes = i;
@@ -41,22 +45,21 @@ public abstract class ServerClient {
 			e1.printStackTrace();
 		}
 		Thread serverThread = new Thread(new Runner() {
-
 			public void run() {
-				while (inst.isRun()) {
-					try {
-						inst.serverRun();
-					} catch (Exception e) {
-						e.printStackTrace();
-					}
+				// while (inst.isRun()) {
+				try {
+					inst.serverRun();
+				} catch (Exception e) {
+					e.printStackTrace();
 				}
+				// }
 			}
 		}.set(inst));
+
 		serverThread.setDaemon(true);
 		serverThread.start();
 
 		new Thread(new Runner() {
-
 			public void run() {
 
 				int incr = 0;
@@ -76,11 +79,14 @@ public abstract class ServerClient {
 						p(e);
 					}
 				}
+				inst.destroy();
 			}
 
 		}.set(inst)).start();
-
 	}
+
+	public void destroy() {
+	};
 
 	protected int RunTimes = 0;
 

@@ -15,7 +15,11 @@ local.properties
 .classpath
 .settings/
 .loadpath
-
+activemq-data/
+hsf.log*
+diamond_config*
+config.client*
+hsf.log
 # External tool builders
 .externalToolBuilders/
 

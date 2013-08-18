@@ -224,7 +224,47 @@
 			<artifactId>IKAnalyzer</artifactId>
 			<version>3.2.3</version>
 		</dependency>
-		<!-- <dependency> <groupId>com.taobao.hsf</groupId> <artifactId>hsf.notify.spring</artifactId> 
-			<version>1.7.0</version> </dependency> -->
+		<!-- 试图嵌入tomcat启动hsf，但是看来不必要了，有EasyStarter HSFUnit -->
+		<dependency>
+		  <groupId>tomcat</groupId>
+		  <artifactId>tomcat</artifactId>
+		  <version>3.3.2</version>
+		</dependency>
+		<!-- 仅用于看源码，因为jar在hsf.sar里面了 -->
+		<dependency>
+		  <groupId>com.taobao.hsf</groupId>
+		  <artifactId>hsf.container</artifactId>
+		  <version>1.8.0.0</version>
+		</dependency>
+		<dependency>
+		  <groupId>com.taobao.hsf</groupId>
+		  <artifactId>hsf.notify.spring</artifactId>
+		  <version>1.8.0.0</version>
+		</dependency>
+		
+		<dependency>
+		  <groupId>com.taobao.hsf</groupId>
+		  <artifactId>hsf.app.spring</artifactId>
+		  <version>1.8.0.0</version>
+		</dependency>
+		
+		<dependency>
+		  <groupId>com.taobao.hsf</groupId>
+		  <artifactId>hsf.services</artifactId>
+		  <version>1.8.0.0</version>
+		</dependency>
+		
+		<dependency>
+		  <groupId>com.taobao.hsf</groupId>
+		  <artifactId>hsf.service.process</artifactId>
+		  <version>1.5.0</version>
+		</dependency>
+		
+		<dependency>
+		  <groupId>com.taobao.hsf</groupId>
+		  <artifactId>hsf.service.config</artifactId>
+		  <version>1.5.0</version>
+		</dependency>
+		<!-- 仅用于看源码，因为jar在hsf.sar里面了 -->
 	</dependencies>
 </project>

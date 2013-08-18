@@ -1,2 +1,7 @@
-11-29 16:34:08 - dataId=com.taobao.hsf.redis ,group=HSF ,content=10.232.13.28:6379
-11-29 16:34:26 - dataId=HSF.GLOBAL.CONFIGURATION ,group=HSF ,content=@<rules><virtualCm></virtualCm></rules>
+08-18 16:59:31 - dataId=com.taobao.hsf.redis ,group=HSF ,content=10.125.6.204:6379
+08-18 17:08:54 - dataId=com.taobao.hsf.redis ,group=HSF ,content=10.125.6.204:6379
+08-18 17:09:20 - dataId=HSF.GLOBAL.CONFIGURATION ,group=HSF ,content=@<rules><virtualCm></virtualCm></rules>
+08-18 17:13:05 - dataId=com.taobao.hsf.redis ,group=HSF ,content=10.125.6.204:6379
+08-18 17:14:20 - dataId=com.taobao.hsf.redis ,group=HSF ,content=10.125.6.204:6379
+08-18 17:14:46 - dataId=HSF.GLOBAL.CONFIGURATION ,group=HSF ,content=@<rules><virtualCm></virtualCm></rules>
+08-18 22:18:29 - dataId=com.taobao.hsf.redis ,group=HSF ,content=10.125.6.204:6379
