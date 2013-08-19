@@ -1,1 +1,1 @@
-mvn eclipse:eclipse
+mvn eclipse:eclipse  -DdownloadSources=true

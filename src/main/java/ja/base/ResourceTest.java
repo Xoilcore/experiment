@@ -4,8 +4,6 @@ import static m.util.PrintUtil.*;
 
 import java.net.URL;
 
-import com.taobao.hsf.consumer.HSFResponseFuture;
-
 public class ResourceTest {
 
 	/**
@@ -26,15 +24,7 @@ public class ResourceTest {
 		url = ResourceTest.class.getClassLoader().getResource(fName);
 		p(url, "a2");
 		// jar class
-		fName = HSFResponseFuture.class.getName();
-		fName = fName.replaceAll("\\.", "/") + ".class";
-		p(fName);
-		//
-		url = HSFResponseFuture.class.getResource("HSFResponseFuture.class");
-		p(url, "b1");
-
-		url = HSFResponseFuture.class.getClassLoader().getResource(fName);
-		p(url, "b2");
+		
 
 		// jre class
 		fName = String.class.getName();
