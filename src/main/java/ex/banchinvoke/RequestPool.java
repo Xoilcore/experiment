@@ -219,7 +219,7 @@ public class RequestPool {
 		// 获取调用实例
 
 		SetMatch setMatch = (SetMatch) newRequestAngency(new WordBanchCall(),
-				"i.RequestPool$SetMatch", "contain", null);
+				"ex.banchinvoke.RequestPool$SetMatch", "contain", null);
 
 		// 名单匹配线程池
 		BlockingQueue<Runnable> taskQueue = Queues.newLinkedBlockingDeque();

@@ -13,6 +13,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.io.OutputStreamWriter;
+import java.io.StringWriter;
 import java.io.UnsupportedEncodingException;
 import java.net.URL;
 import java.util.List;
@@ -57,6 +59,18 @@ public class FileUtils {
 		BufferedWriter bw = null;
 		try {
 			bw = new BufferedWriter(new FileWriter(dir));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return bw;
+	}
+
+	public static BufferedWriter getFileWriter(String dir, String charset) {
+		BufferedWriter bw = null;
+		try {
+			FileOutputStream fos = new FileOutputStream(dir);
+			OutputStreamWriter or = new OutputStreamWriter(fos, charset);
+			bw = new BufferedWriter(or);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
