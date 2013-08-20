@@ -237,11 +237,6 @@
 		  <artifactId>hsf.container</artifactId>
 		  <version>1.8.0.0</version>
 		</dependency>
-		<dependency>
-		  <groupId>com.taobao.hsf</groupId>
-		  <artifactId>hsf.notify.spring</artifactId>
-		  <version>1.8.0.0</version>
-		</dependency>
 		
 		<dependency>
 		  <groupId>com.taobao.hsf</groupId>
@@ -268,6 +263,42 @@
 		</dependency>
 		<!-- 仅用于看源码，因为jar在hsf.sar里面了 -->
 		
+		<!-- notify  -->
+		<dependency>
+		  <groupId>com.taobao.hsf</groupId>
+		  <artifactId>hsf.notify.spring</artifactId>
+		  <version>1.8.0.0</version>
+		</dependency>
+		<!-- 
+		<dependency>
+		  <groupId>com.alibaba.toolkit</groupId>
+		  <artifactId>toolkit-common-lang</artifactId>
+		  <version>1.0</version>
+		</dependency>
+		
+		<dependency>
+		  <groupId>com.taobao.diamond</groupId>
+		  <artifactId>diamond-client</artifactId>
+		  <version>3.6.5</version>
+		</dependency>
+		
+		<dependency>
+		  <groupId>com.taobao.eagleeye</groupId>
+		  <artifactId>eagleeye-core</artifactId>
+		  <version>1.2.4</version>
+		</dependency>
+		
+		<dependency>
+		  <groupId>com.taobao.notify</groupId>
+		  <artifactId>notify-tr-client</artifactId>
+		  <version>1.8.18</version>
+		</dependency>-->
+		<dependency>
+		  <groupId>com.taobao.notify</groupId>
+		  <artifactId>notify-tr-client</artifactId>
+		  <version>1.8.18</version>
+		</dependency>
+		<!-- notify end -->
 		<dependency>
 		  <groupId>junit</groupId>
 		  <artifactId>junit</artifactId>

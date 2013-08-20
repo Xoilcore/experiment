@@ -8,8 +8,6 @@ import java.io.IOException;
 import java.util.Date;
 import java.util.List;
 
-import org.apache.commons.lang.CharSet;
-
 import m.util.FileUtils;
 
 public class FileEncoding {
@@ -32,7 +30,7 @@ public class FileEncoding {
 
 		for (String str : list) {
 			p(str);
-			byte[] bs = str.getBytes("utf-8");
+			//byte[] bs = str.getBytes("utf-8");
 			 
 			p(new String(str.getBytes("utf-8"), "gbk"));
 			break;

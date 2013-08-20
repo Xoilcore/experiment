@@ -3,11 +3,9 @@ package tools.taobao.hsf;
 import com.taobao.hsf.app.spring.util.HSFSpringConsumerBean;
 import com.taobao.hsf.app.spring.util.HSFSpringProviderBean;
 import com.taobao.hsf.hsfunit.HSFEasyStarter;
-import com.taobao.hsf.hsfunit.HSFStarter;
 
 import static m.util.PrintUtil.*;
 import m.tool.net.ServerClient;
-import m.util.ReflectUtil;
 
 public class HsfTest extends ServerClient {
 
@@ -47,16 +45,17 @@ public class HsfTest extends ServerClient {
 		Thread.sleep(5000);
 
 		// server
-		registerService("test2");
+		registerService("t2");
 		p("start hsfEasyStarter!");
 		// client
 		consummer = new HSFSpringConsumerBean();
 		consummer.setInterfaceName(serviceName);
 		consummer.setVersion("1.0.0.daily");
-		consummer.setGroup("t");
+		consummer.setGroup("t1");
 		p("start consummer!");
 		consummer.init();
 		sayable = (Sayable) consummer.getObject();
+		Thread.sleep(2000);
 	}
 
 	@Override
@@ -66,12 +65,12 @@ public class HsfTest extends ServerClient {
 
 	@Override
 	public void clientRun() throws Exception {
-		sayable.say(String.format("hello.%d", getCurrentRunTime()));
-		if (getCurrentRunTime() == 5) {
+		sayable.say(String.format("1.hello.%d", getCurrentRunTime()));
+		if (getCurrentRunTime() == 20) {
 			// Object service =
 			// HSFStarter.getRemotingServiceWithoutSpring("tools.taobao.hsf.Sayable",
 			// "1.0.0.daily", "t");
-			// this.provider.unregister();
+			this.provider.unregister();
 			// try {
 			// ClassLoader osgiLoader = HSFStarter.getHSFSpringProviderBean()
 			// .getClassLoader();
@@ -105,11 +104,6 @@ public class HsfTest extends ServerClient {
 			// innerProvider =
 			// (com.taobao.hsf.app.spring.util.HSFSpringProviderBean )proxy;
 
-			// Thread.sleep(2000);
-		}
-
-		if (getCurrentRunTime() == 8) {
-			registerService("test2");
 		}
 
 		Thread.sleep(1000);
