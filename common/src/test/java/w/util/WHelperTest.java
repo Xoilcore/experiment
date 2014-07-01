@@ -5,11 +5,14 @@ package w.util;
 import java.io.IOException;
 import java.util.List;
 
-import m.util.FPSCounter;
-import m.util.FileUtils;
 
 import org.junit.Test;
-import static m.util.PrintUtil.*;
+
+import com.taobao.feng.tools.FPSCounter;
+import com.taobao.feng.tools.FileUtils;
+import com.taobao.feng.tools.WHelper;
+
+import static com.taobao.feng.tools.PrintUtil.*;
 
 public class WHelperTest {
 
