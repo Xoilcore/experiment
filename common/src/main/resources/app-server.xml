@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-2.5.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd
+    	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd"
+	default-autowire="byName">
+	<bean id="birdImpl" class="m.tool.net.test.Bird" />
+
+	<bean id="sayableService"
+		class="com.taobao.hsf.app.spring.util.HSFSpringProviderBean"
+		init-method="init">
+		<property name="serviceInterface" value="m.tool.net.test.sayable" />
+		<property name="serviceGroup" value="daily" />
+		<property name="serviceVersion" value="1.0.0.daily" />
+		<property name="target" ref="birdImpl" />
+	</bean>
+
+	
+
+	<bean id="test" class="m.tool.net.test.TestClass">
+		<property name="bird" ref="birdImpl" />
+	</bean>
+
+
+
+</beans>
