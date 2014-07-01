@@ -11,6 +11,8 @@ tmp/
 *.bak
 *.swp
 *~.nib
+justplay/target/*
+common/target/*
 local.properties
 .classpath
 .settings/
