@@ -4,7 +4,7 @@ import static com.taobao.feng.tools.PrintUtil.*;
 
 public class QpsCounter {
 	double count = 0;
-	static double COUNT = 100;
+	static double COUNT = 50;
 	long lastTime = 0;
 	Double dynamic = COUNT;
 	Double qps = 0.0D;
@@ -18,7 +18,7 @@ public class QpsCounter {
 			public void run() {
 				while (true) {
 					if (System.currentTimeMillis() - lastTime > 2000) {
-						dynamic = 100D;
+						dynamic = dynamic / 2;
 					}
 
 					try {
@@ -39,24 +39,25 @@ public class QpsCounter {
 		synchronized (this) {
 			count++;
 			if (count > dynamic) {
-				calCount = count;
-				count = 0;
 				p = true;
 			}
 		}
 		if (p) {
-
 			long tmis = System.currentTimeMillis();
-			double fps = 0.0f;
-			synchronized (dynamic) {
-				qps = fps = calCount * 1000 / (tmis + 1 - lastTime);
-				if (Math.abs(fps - dynamic) > 4) {
-					dynamic = fps;
+			if (tmis - lastTime >= 1000) {
+				calCount = count;
+				count = 0;
+				double fps = 0.0f;
+				synchronized (dynamic) {
+					qps = fps = calCount * 1000 / (tmis + 1 - lastTime);
+					if (Math.abs(fps - dynamic) > 4) {
+						dynamic = fps;
+					}
 				}
-			}
-			pf(String.format("%s fps=%f\n", name, fps));
+				pf(String.format("%s fps=%f\n", name, fps));
 
-			lastTime = tmis;
+				lastTime = tmis;
+			}
 		}
 	}
 

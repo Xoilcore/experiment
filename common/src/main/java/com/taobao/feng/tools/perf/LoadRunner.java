@@ -11,6 +11,7 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.taobao.feng.tools.FileUtils;
 import com.taobao.feng.tools.QpsCounter;
+import static com.taobao.feng.tools.PrintUtil.*;
 
 public class LoadRunner {
 
@@ -63,16 +64,26 @@ public class LoadRunner {
 
 	final static QpsCounter qpsCounter = new QpsCounter("LoadRunner");
 
+	boolean isStoped = false;
+	boolean isFlushConfig = true;
+
+	public void closeFlush() {
+		isFlushConfig = false;
+	}
+
 	public void start() {
 		new Thread() {
 			public void run() {
-				while (true) {
+				while (!isStoped) {
 					try {
 						sleep(2000);
 					} catch (InterruptedException e) {
 
 					}
-					runner.flushConfig();
+					if (isFlushConfig) {
+						runner.flushConfig();
+					}
+
 					runner.checkerWorkers();
 				}
 			}
@@ -90,13 +101,12 @@ public class LoadRunner {
 		try {
 			Config conf = getConfig();
 			if (qps != conf.qps) {
-				logger.warn(String.format("update qps from %s to %s", qps,
-						conf.qps));
+				p(String.format("update qps from %s to %s", qps, conf.qps));
 				qps = conf.qps;
 			}
 			if (conf.sleeptime > 0) {
 				if (sleeptime != conf.sleeptime) {
-					logger.warn(String.format("update sleeptime from %s to %s",
+					p(String.format("update sleeptime from %s to %s",
 							sleeptime, conf.sleeptime));
 					sleeptime = conf.sleeptime;
 				}
@@ -104,6 +114,11 @@ public class LoadRunner {
 
 		} catch (IOException e) {
 		}
+	}
+
+	public void stop() {
+		isStoped = true;
+		createWorker(-1 * workers.size());
 	}
 
 	public void checkerWorkers() {
@@ -119,7 +134,9 @@ public class LoadRunner {
 		}
 	}
 
-	private void createWorker(int count) {
+	private synchronized void createWorker(int count) {
+		int addcount = 0;
+		int curCount = workers.size();
 		if (count > 0) {
 			for (int i = 0; i < count; i++) {
 				Worker worker = new Worker("request-worker");
@@ -127,9 +144,13 @@ public class LoadRunner {
 				worker.dataGenerator = dataGenerator;
 				worker.start();
 				workers.add(worker);
+				if (++addcount > curCount / 2) {
+					break;
+				}
 			}
 		}
 		int n = count;
+
 		if (count < 0) {
 			while (!(n++ == 0) && workers.size() > 0) {
 				workers.get(0).quit();
@@ -137,7 +158,7 @@ public class LoadRunner {
 			}
 		}
 		if (count != 0) {
-			logger.warn(String.format("worker数变化  [%s] ,剩余worker[%s]", count,
+			p(String.format("worker数变化  [%s] ,剩余worker[%s]", count,
 					workers.size()));
 		}
 	}
@@ -183,13 +204,14 @@ public class LoadRunner {
 		@Override
 		public void run() {
 			while (run) {
-
 				if (isInterrupted()) {
 					break;
 				}
 				try {
+					runner.counterManager.enterRtStat();
 					String label = runner.invoker.invoke(dataGenerator.get());
-					runner.counterManager.getReqCounter(label).incr();
+					runner.counterManager.getCounter(label).incr();
+					runner.counterManager.endRtStat(label);
 				} catch (Exception e) {
 					runner.counterManager.getErrorCounter().incr();
 				}

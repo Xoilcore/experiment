@@ -33,6 +33,7 @@
     <modules>
         <module>common</module>
         <module>justplay</module>
+				<module>promotion</module>
     </modules>
 	
 	

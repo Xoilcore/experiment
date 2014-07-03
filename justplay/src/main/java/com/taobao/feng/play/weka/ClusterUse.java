@@ -8,7 +8,6 @@ import java.util.Map;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.taobao.feng.tools.FileUtils;
-import com.taobao.feng.tools.WHelper;
 
 import weka.clusterers.SimpleKMeans;
 import weka.core.Instances;

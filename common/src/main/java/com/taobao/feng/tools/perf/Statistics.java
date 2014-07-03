@@ -6,6 +6,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 import com.google.common.collect.Maps;
+import static com.taobao.feng.tools.PrintUtil.*;
 
 public class Statistics {
 	private CounterManager counterManager;
@@ -28,12 +29,18 @@ public class Statistics {
 	}
 
 	private void stat() {
-		Map<String, Long> reqMap = Maps.newHashMap();
-		for (Map.Entry<String, Counter> entry : counterManager.errorCounterMap
+		Map<String, String> reqMap = Maps.newHashMap();
+
+		for (Map.Entry<String, Counter> entry : counterManager.counterMap
 				.entrySet()) {
-			reqMap.put(entry.getKey(), entry.getValue().get());
+			String key = entry.getKey();
+
+			Double rt = counterManager.getRtCounter(key).get();
+			reqMap.put(key,
+					String.format("req->%s;rt->%s", entry.getValue().get(), rt));
 		}
 		logger.warn(String.format("req:%s", reqMap.toString()));
+		p(reqMap.toString(), "stat");
 	}
 
 	public CounterManager getCounterManager() {

@@ -3,7 +3,6 @@ package com.taobao.feng.play.weka;
 import java.io.IOException;
 import java.util.Iterator;
 
-import com.taobao.feng.tools.WHelper;
 
 import weka.core.tokenizers.Tokenizer;
 

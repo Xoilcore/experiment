@@ -1,7 +1,8 @@
 package com.taobao.feng.tools;
 
-import com.taobao.hsf.hsfunit.HSFEasyStarter;
-import com.taobao.hsf.hsfunit.HSFStarter;
+import com.taobao.hsf.standalone.HSFEasyStarter;
+import com.taobao.hsf.standalone.HSFStarter;
+
 
 public class HsfServiceUtil {
 
@@ -20,7 +21,7 @@ public class HsfServiceUtil {
 		System.setProperty("HSF.LOG.PATH", workdir);
 		System.setProperty("JM.LOG.PATH", workdir);
 		HSFEasyStarter.start(System.getProperty("user.home") + "/hsf",
-				"1.4.9.2");
+				"2.1.0.5");
 	}
 
 	public static <T> T createConsummer(String service, String version) {
