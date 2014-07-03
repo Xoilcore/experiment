@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.taobao.feng</groupId>
+		<artifactId>mixexpr</artifactId>
+		<version>0.0.2-SNAPSHOT</version>
+	</parent>
+
+	<groupId>com.taobao.feng</groupId>
+	<artifactId>promotion</artifactId>
+	<version>0.0.2-SNAPSHOT</version>
+	<description>just for test</description>
+
+	<profiles>
+		<profile>
+			<id>test</id>
+			<properties>
+				<java.version>1.6</java.version>
+				<java.encoding>utf-8</java.encoding>
+			</properties>
+		</profile>
+		<profile>
+			<id>development</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<java.version>1.6</java.version>
+				<java.encoding>utf-8</java.encoding>
+			</properties>
+		</profile>
+	</profiles>
+	<dependencies>
+		<dependency>
+			<groupId>com.taobao.feng</groupId>
+			<artifactId>common</artifactId>
+			<version>0.0.2-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.tmall.tmpp</groupId>
+			<artifactId>tmpp-common</artifactId>
+			<version>1.1.6.0</version>
+		</dependency>
+	</dependencies>
+</project>

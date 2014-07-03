@@ -1,0 +1,2956 @@
+2014-07-03 13:27:52,814 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 13:27:52,876 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:27:54,238 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:27:54,239 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:27:54,239 INFO  - ########## environment ok.
+
+2014-07-03 13:27:54,344 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 13:27:54,344 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:27:54,344 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 13:27:54,345 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:27:54,346 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 13:27:54,346 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:27:55,308 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 13:27:55,308 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 13:27:55,339 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 13:27:55,339 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 13:27:55,349 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 13:27:55,350 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 13:27:55,400 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 13:27:55,400 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 13:27:55,539 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 13:27:55,540 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 13:28:05,670 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 13:28:05,670 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 13:28:23,903 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@bbc1f6
+
+2014-07-03 13:28:23,907 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@83fde6
+
+2014-07-03 13:28:23,921 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@3945e2
+
+2014-07-03 13:28:23,921 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@efe27b
+
+2014-07-03 13:29:58,265 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 13:29:58,334 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:29:59,341 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:29:59,341 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:29:59,341 INFO  - ########## environment ok.
+
+2014-07-03 13:29:59,399 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 13:29:59,400 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:29:59,400 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 13:29:59,400 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:29:59,400 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 13:29:59,400 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:30:00,082 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 13:30:00,082 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 13:30:00,093 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 13:30:00,094 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 13:30:00,106 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 13:30:00,106 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 13:30:00,174 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 13:30:00,174 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 13:30:00,361 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 13:30:00,362 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 13:30:10,511 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 13:30:10,512 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 13:30:28,959 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1435686
+
+2014-07-03 13:30:28,963 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@598d00
+
+2014-07-03 13:30:28,978 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@15e8aa5
+
+2014-07-03 13:30:28,978 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@1e06de8
+
+2014-07-03 13:36:21,979 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 13:36:22,048 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:36:23,057 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:36:23,057 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:36:23,057 INFO  - ########## environment ok.
+
+2014-07-03 13:36:23,135 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 13:36:23,136 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:36:23,136 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 13:36:23,136 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:36:23,136 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 13:36:23,137 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:36:23,750 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 13:36:23,750 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 13:36:23,760 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 13:36:23,760 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 13:36:23,784 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 13:36:23,784 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 13:36:23,844 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 13:36:23,845 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 13:36:23,993 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 13:36:23,993 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 13:36:34,136 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 13:36:34,137 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 13:36:52,708 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1b0c08
+
+2014-07-03 13:36:52,712 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@a9509d
+
+2014-07-03 13:36:52,723 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1c0cb76
+
+2014-07-03 13:36:52,723 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@6dd8e1
+
+2014-07-03 13:39:25,908 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 13:39:25,966 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:39:26,974 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:39:26,974 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:39:26,975 INFO  - ########## environment ok.
+
+2014-07-03 13:39:27,084 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 13:39:27,084 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:39:27,084 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 13:39:27,085 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:39:27,085 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 13:39:27,085 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:39:27,724 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 13:39:27,725 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 13:39:27,734 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 13:39:27,734 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 13:39:27,747 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 13:39:27,747 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 13:39:27,803 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 13:39:27,804 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 13:39:27,938 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 13:39:27,939 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 13:39:38,056 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 13:39:38,056 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 13:39:56,642 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@af4627
+
+2014-07-03 13:39:56,646 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1eeba19
+
+2014-07-03 13:39:56,661 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@af17c7
+
+2014-07-03 13:39:56,661 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@1422d0b
+
+2014-07-03 13:45:21,606 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 13:45:21,646 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:45:22,653 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:45:22,653 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:45:22,653 INFO  - ########## environment ok.
+
+2014-07-03 13:45:22,764 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 13:45:22,764 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:45:22,764 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 13:45:22,764 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:45:22,765 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 13:45:22,765 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:45:22,770 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@142c778
+
+2014-07-03 13:45:23,419 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 13:45:23,419 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 13:45:23,474 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 13:45:23,474 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 13:45:23,492 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 13:45:23,493 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 13:45:23,529 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 13:45:23,530 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 13:45:23,731 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 13:45:23,731 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 13:45:33,851 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 13:45:33,852 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 13:45:52,335 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1496e57
+
+2014-07-03 13:45:52,339 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1696452
+
+2014-07-03 13:45:52,350 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@623367
+
+2014-07-03 13:50:28,502 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 13:50:28,577 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:50:29,586 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:50:29,586 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:50:29,586 INFO  - ########## environment ok.
+
+2014-07-03 13:50:29,706 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 13:50:29,707 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:50:29,707 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 13:50:29,707 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:50:29,707 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 13:50:29,707 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:50:30,367 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 13:50:30,367 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 13:50:30,400 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 13:50:30,400 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 13:50:30,416 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 13:50:30,417 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 13:50:30,470 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 13:50:30,470 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 13:50:33,708 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 13:50:33,708 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 13:50:43,870 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 13:50:43,870 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 13:50:59,270 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@99ff91
+
+2014-07-03 13:50:59,277 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@b5ac2c
+
+2014-07-03 13:50:59,290 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@856447
+
+2014-07-03 13:50:59,294 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@17a7de4
+
+2014-07-03 13:52:55,023 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 13:52:55,052 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:52:56,061 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:52:56,061 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:52:56,061 INFO  - ########## environment ok.
+
+2014-07-03 13:52:56,166 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 13:52:56,166 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:52:56,166 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 13:52:56,167 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:52:56,167 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 13:52:56,167 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:52:56,822 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 13:52:56,822 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 13:52:56,859 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 13:52:56,859 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 13:52:56,873 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 13:52:56,874 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 13:52:56,930 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 13:52:56,931 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 13:52:57,229 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 13:52:57,229 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 13:53:07,352 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 13:53:07,352 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 13:53:25,731 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@17a7de4
+
+2014-07-03 13:53:25,736 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@113108b
+
+2014-07-03 13:53:25,747 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@af4627
+
+2014-07-03 13:53:25,747 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@126aaca
+
+2014-07-03 13:58:31,177 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 13:58:31,218 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:58:32,227 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:58:32,227 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 13:58:32,227 INFO  - ########## environment ok.
+
+2014-07-03 13:58:32,277 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 13:58:32,277 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:58:32,277 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 13:58:32,278 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:58:32,278 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 13:58:32,278 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 13:58:32,279 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@dd8e0d
+
+2014-07-03 13:58:32,926 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 13:58:32,926 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 13:58:32,944 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 13:58:32,944 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 13:58:32,958 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 13:58:32,958 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 13:58:32,991 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 13:58:32,991 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 13:58:33,190 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 13:58:33,190 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 13:58:43,337 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 13:58:43,337 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 13:59:01,859 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@11d20d3
+
+2014-07-03 13:59:01,864 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@352d87
+
+2014-07-03 13:59:01,875 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@a638fc
+
+2014-07-03 14:03:31,207 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 14:03:31,255 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:03:32,261 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:03:32,261 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:03:32,261 INFO  - ########## environment ok.
+
+2014-07-03 14:03:32,324 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 14:03:32,325 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:03:32,325 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 14:03:32,326 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:03:32,326 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 14:03:32,326 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:03:32,948 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 14:03:32,948 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:03:32,958 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 14:03:32,958 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:03:32,980 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 14:03:32,981 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 14:03:33,118 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 14:03:33,118 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 14:03:33,298 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 14:03:33,298 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 14:03:43,531 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 14:03:43,531 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 14:04:01,902 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1696452
+
+2014-07-03 14:04:01,910 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@15e8aa5
+
+2014-07-03 14:04:01,923 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@e2b9e5
+
+2014-07-03 14:04:01,923 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@11a772d
+
+2014-07-03 14:08:20,439 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 14:08:20,537 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:08:21,546 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:08:21,546 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:08:21,546 INFO  - ########## environment ok.
+
+2014-07-03 14:08:21,633 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 14:08:21,633 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:08:21,634 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 14:08:21,634 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:08:21,634 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 14:08:21,634 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:08:21,644 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@1f7a3d0
+
+2014-07-03 14:08:22,597 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 14:08:22,597 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:08:22,608 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 14:08:22,608 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:08:22,631 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 14:08:22,632 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 14:08:22,669 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 14:08:22,670 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 14:08:22,979 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 14:08:22,979 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 14:08:33,199 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 14:08:33,199 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 14:09:19,312 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 14:09:19,350 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:09:20,357 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:09:20,357 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:09:20,357 INFO  - ########## environment ok.
+
+2014-07-03 14:09:20,418 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 14:09:20,418 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:09:20,418 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 14:09:20,418 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:09:20,419 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 14:09:20,419 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:09:20,419 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@1a1446d
+
+2014-07-03 14:09:21,388 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 14:09:21,388 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:09:21,399 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 14:09:21,400 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:09:21,412 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 14:09:21,412 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 14:09:21,448 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 14:09:21,448 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 14:09:21,702 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 14:09:21,703 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 14:09:31,926 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 14:09:31,926 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 14:09:50,028 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@d760bb
+
+2014-07-03 14:09:50,033 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@8179c2
+
+2014-07-03 14:09:50,057 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@dea091
+
+2014-07-03 14:11:03,894 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 14:11:03,959 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:11:04,964 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:11:04,965 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:11:04,965 INFO  - ########## environment ok.
+
+2014-07-03 14:11:05,183 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 14:11:05,184 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:11:05,184 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 14:11:05,186 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:11:05,186 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 14:11:05,187 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:11:05,194 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@140be55
+
+2014-07-03 14:11:06,197 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 14:11:06,198 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:11:06,217 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 14:11:06,217 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:11:06,239 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 14:11:06,239 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 14:11:06,322 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 14:11:06,322 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 14:11:06,621 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 14:11:06,622 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 14:11:16,858 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 14:11:16,858 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 14:11:34,802 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@862c65
+
+2014-07-03 14:11:34,813 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@182b300
+
+2014-07-03 14:11:34,834 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1194879
+
+2014-07-03 14:12:36,208 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 14:12:36,258 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:12:37,268 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:12:37,268 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:12:37,268 INFO  - ########## environment ok.
+
+2014-07-03 14:12:37,411 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 14:12:37,411 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:12:37,411 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 14:12:37,412 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:12:37,412 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 14:12:37,412 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:12:37,427 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@6f3870
+
+2014-07-03 14:12:38,348 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 14:12:38,349 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:12:38,359 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 14:12:38,359 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:12:38,372 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 14:12:38,372 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 14:12:38,415 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 14:12:38,416 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 14:12:38,664 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 14:12:38,665 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 14:12:48,874 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 14:12:48,874 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 14:13:34,083 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 14:13:34,117 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:13:35,129 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:13:35,129 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:13:35,130 INFO  - ########## environment ok.
+
+2014-07-03 14:13:35,249 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 14:13:35,250 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:13:35,250 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 14:13:35,250 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:13:35,251 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 14:13:35,251 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:13:35,262 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@be552b
+
+2014-07-03 14:13:36,189 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 14:13:36,189 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:13:36,234 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 14:13:36,234 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:13:36,249 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 14:13:36,250 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 14:13:36,287 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 14:13:36,288 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 14:13:36,571 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 14:13:36,571 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 14:13:46,796 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 14:13:46,797 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 14:14:04,875 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@7d5244
+
+2014-07-03 14:14:04,880 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1be16d5
+
+2014-07-03 14:14:04,902 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1776b55
+
+2014-07-03 14:33:16,670 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 14:33:16,764 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:33:17,775 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:33:17,775 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:33:17,776 INFO  - ########## environment ok.
+
+2014-07-03 14:33:17,871 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 14:33:17,871 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:33:17,871 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 14:33:17,871 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:33:17,872 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 14:33:17,872 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:33:17,872 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@b48e23
+
+2014-07-03 14:33:18,861 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 14:33:18,861 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:33:18,871 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 14:33:18,872 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:33:18,884 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 14:33:18,884 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 14:33:18,921 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 14:33:18,921 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 14:33:19,180 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 14:33:19,181 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 14:35:34,765 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 14:35:35,830 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:35:36,841 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:35:36,841 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:35:36,841 INFO  - ########## environment ok.
+
+2014-07-03 14:35:36,983 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 14:35:36,983 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:35:36,983 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 14:35:36,984 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:35:36,984 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 14:35:36,984 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:35:36,990 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@1464fee
+
+2014-07-03 14:35:37,881 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 14:35:37,881 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:35:37,892 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 14:35:37,892 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:35:37,905 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 14:35:37,905 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 14:35:37,960 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 14:35:37,961 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 14:35:38,232 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 14:35:38,232 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 14:35:38,268 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 14:35:38,268 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:35:38,279 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 14:35:38,280 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 14:35:38,352 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 14:35:38,353 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 14:35:48,542 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 14:35:48,542 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 14:36:06,614 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@16127f4
+
+2014-07-03 14:36:06,619 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@631b3b
+
+2014-07-03 14:36:06,642 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1ad0ff8
+
+2014-07-03 14:36:06,643 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@124212
+
+2014-07-03 14:37:40,995 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 14:37:41,077 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:37:42,091 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:37:42,091 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 14:37:42,091 INFO  - ########## environment ok.
+
+2014-07-03 14:37:42,151 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 14:37:42,151 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:37:42,151 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 14:37:42,152 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:37:42,152 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 14:37:42,152 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 14:37:42,152 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@1f8d077
+
+2014-07-03 14:37:42,745 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 14:37:42,745 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:37:42,755 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 14:37:42,755 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:37:42,767 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 14:37:42,768 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 14:37:42,812 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 14:37:42,812 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 14:37:42,978 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 14:37:42,978 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 14:37:43,053 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 14:37:43,053 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 14:37:43,064 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 14:37:43,064 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 14:37:43,163 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 14:37:43,165 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 14:37:53,109 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 14:37:53,109 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 14:38:11,729 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1280c85
+
+2014-07-03 14:38:11,733 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@15b4b49
+
+2014-07-03 14:38:11,743 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@12fae6c
+
+2014-07-03 14:38:11,744 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@83b18f
+
+2014-07-03 14:41:39,471 WARN  - [check-update] get changed dataId exception, java.io.IOException: timeout
+
+2014-07-03 14:45:12,646 ERROR - [serverlist] exception, java.net.SocketTimeoutException: connect timed out
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:158)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:233)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:323)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:837)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:778)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:703)
+	at com.taobao.diamond.client.impl.HttpSimpleClient.httpGet(HttpSimpleClient.java:74)
+	at com.taobao.diamond.client.impl.ServerListManager.getApacheServerList(ServerListManager.java:131)
+	at com.taobao.diamond.client.impl.ServerListManager$GetServerListTask.run(ServerListManager.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2014-07-03 14:45:12,666 WARN  - apache diamond serverlist is empty!!!
+
+2014-07-03 14:51:15,906 ERROR - [serverlist] exception, java.net.SocketTimeoutException: Read timed out
+
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:218)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:258)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:317)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:687)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:632)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1049)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:373)
+	at com.taobao.diamond.client.impl.HttpSimpleClient.httpGet(HttpSimpleClient.java:75)
+	at com.taobao.diamond.client.impl.ServerListManager.getApacheServerList(ServerListManager.java:131)
+	at com.taobao.diamond.client.impl.ServerListManager$GetServerListTask.run(ServerListManager.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2014-07-03 14:51:15,908 WARN  - apache diamond serverlist is empty!!!
+
+2014-07-03 16:08:49,242 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 16:08:49,355 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:08:50,358 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:08:50,358 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:08:50,358 INFO  - ########## environment ok.
+
+2014-07-03 16:08:50,451 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 16:08:50,451 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:08:50,451 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 16:08:50,452 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:08:50,452 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 16:08:50,452 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:08:50,456 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@9abce9
+
+2014-07-03 16:08:51,150 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 16:08:51,150 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:08:51,162 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 16:08:51,162 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:08:51,181 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 16:08:51,181 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 16:08:51,235 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 16:08:51,236 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 16:08:51,494 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 16:08:51,495 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 16:08:51,518 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 16:08:51,518 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:08:51,535 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 16:08:51,535 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 16:08:54,586 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 16:08:54,588 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 16:09:01,640 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 16:09:01,640 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 16:09:20,026 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1975d46
+
+2014-07-03 16:09:20,033 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@17e9134
+
+2014-07-03 16:09:20,049 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1e335d7
+
+2014-07-03 16:09:20,050 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@3f0b70
+
+2014-07-03 16:20:00,386 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 16:20:00,414 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:20:01,429 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:20:01,429 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:20:01,429 INFO  - ########## environment ok.
+
+2014-07-03 16:20:01,618 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 16:20:01,619 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:20:01,619 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 16:20:01,621 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:20:01,621 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 16:20:01,621 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:20:02,288 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 16:20:02,289 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:20:02,305 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 16:20:02,306 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:20:02,322 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 16:20:02,322 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 16:20:02,401 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 16:20:02,401 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 16:20:02,561 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 16:20:02,565 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 16:20:02,700 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 16:20:02,700 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:20:02,715 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 16:20:02,715 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 16:20:02,761 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 16:20:02,761 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 16:20:12,776 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 16:20:12,777 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 16:20:31,195 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@4ae778
+
+2014-07-03 16:20:31,199 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@236cc3
+
+2014-07-03 16:20:31,210 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@17dd760
+
+2014-07-03 16:20:31,210 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@c1eb8d
+
+2014-07-03 16:20:31,211 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@14fa695
+
+2014-07-03 16:24:06,190 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 16:24:06,224 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:24:07,237 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:24:07,238 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:24:07,238 INFO  - ########## environment ok.
+
+2014-07-03 16:24:07,319 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 16:24:07,319 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:24:07,319 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 16:24:07,320 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:24:07,320 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 16:24:07,320 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:24:07,325 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@9fe45c
+
+2014-07-03 16:24:08,232 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 16:24:08,232 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:24:08,270 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 16:24:08,270 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:24:08,283 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 16:24:08,283 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 16:24:08,336 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 16:24:08,337 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 16:24:08,600 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 16:24:08,600 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 16:24:08,655 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 16:24:08,655 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:24:08,666 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 16:24:08,666 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 16:24:08,729 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 16:24:08,729 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 16:24:19,110 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 16:24:19,110 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 16:24:36,942 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1919c1f
+
+2014-07-03 16:24:36,962 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@c3b6d2
+
+2014-07-03 16:24:37,002 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1de3a4e
+
+2014-07-03 16:24:37,003 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@f4fe7d
+
+2014-07-03 16:28:21,954 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 16:28:21,986 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:28:22,994 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:28:22,994 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:28:22,994 INFO  - ########## environment ok.
+
+2014-07-03 16:28:23,095 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 16:28:23,096 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:28:23,096 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 16:28:23,099 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:28:23,099 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 16:28:23,099 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:28:24,009 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 16:28:24,009 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:28:24,045 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 16:28:24,045 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:28:24,056 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 16:28:24,056 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 16:28:24,104 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 16:28:24,105 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 16:28:24,344 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 16:28:24,345 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 16:28:24,477 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 16:28:24,477 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:28:24,496 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 16:28:24,496 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 16:28:24,565 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 16:28:24,566 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 16:28:34,560 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 16:28:34,561 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 16:28:52,744 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@871d3e
+
+2014-07-03 16:28:52,750 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@16f1c33
+
+2014-07-03 16:28:52,768 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@9b9a30
+
+2014-07-03 16:28:52,768 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@155e35a
+
+2014-07-03 16:28:52,769 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1c12f86
+
+2014-07-03 16:36:13,556 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 16:36:13,588 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:36:14,601 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:36:14,601 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:36:14,601 INFO  - ########## environment ok.
+
+2014-07-03 16:36:14,680 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 16:36:14,681 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:36:14,681 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 16:36:14,682 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:36:14,682 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 16:36:14,682 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:36:15,298 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 16:36:15,299 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:36:15,313 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 16:36:15,313 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:36:15,328 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 16:36:15,328 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 16:36:15,363 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 16:36:15,364 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 16:36:15,521 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 16:36:15,521 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 16:36:15,542 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 16:36:15,542 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:36:15,555 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 16:36:15,555 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 16:36:15,621 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 16:36:15,622 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 16:36:25,648 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 16:36:25,649 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 16:36:44,292 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1987298
+
+2014-07-03 16:36:44,297 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@601f3f
+
+2014-07-03 16:36:44,310 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@4b3f8b
+
+2014-07-03 16:36:44,310 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@fdb413
+
+2014-07-03 16:36:44,311 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@396fce
+
+2014-07-03 16:39:54,780 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 16:39:54,850 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:39:55,864 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:39:55,864 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 16:39:55,864 INFO  - ########## environment ok.
+
+2014-07-03 16:39:55,934 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 16:39:55,935 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:39:55,935 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 16:39:55,935 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:39:55,935 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 16:39:55,935 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 16:39:55,936 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@7f8062
+
+2014-07-03 16:39:56,541 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 16:39:56,542 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:39:56,571 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 16:39:56,571 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:39:56,606 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 16:39:56,607 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 16:39:56,646 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 16:39:56,647 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 16:39:56,802 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 16:39:56,804 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 16:39:56,842 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 16:39:56,842 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 16:39:56,856 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 16:39:56,856 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 16:39:56,911 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 16:39:56,911 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 16:40:06,908 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 16:40:06,908 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 16:40:25,563 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1dc6a9d
+
+2014-07-03 16:40:25,567 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@ccc621
+
+2014-07-03 16:40:25,579 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@db5b3f
+
+2014-07-03 16:40:25,580 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@46136
+
+2014-07-03 16:41:26,261 ERROR - [serverlist] exception, java.net.SocketTimeoutException: connect timed out
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:158)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:233)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:323)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:837)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:778)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:703)
+	at com.taobao.diamond.client.impl.HttpSimpleClient.httpGet(HttpSimpleClient.java:74)
+	at com.taobao.diamond.client.impl.ServerListManager.getApacheServerList(ServerListManager.java:131)
+	at com.taobao.diamond.client.impl.ServerListManager$GetServerListTask.run(ServerListManager.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2014-07-03 16:41:26,265 WARN  - apache diamond serverlist is empty!!!
+
+2014-07-03 16:41:56,374 ERROR - [serverlist] exception, java.net.SocketTimeoutException: connect timed out
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:158)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:233)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:323)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:837)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:778)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:703)
+	at com.taobao.diamond.client.impl.HttpSimpleClient.httpGet(HttpSimpleClient.java:74)
+	at com.taobao.diamond.client.impl.ServerListManager.getApacheServerList(ServerListManager.java:131)
+	at com.taobao.diamond.client.impl.ServerListManager$GetServerListTask.run(ServerListManager.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2014-07-03 16:41:56,375 WARN  - apache diamond serverlist is empty!!!
+
+2014-07-03 16:44:26,727 ERROR - [serverlist] exception, java.net.SocketTimeoutException: connect timed out
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:158)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:233)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:323)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:837)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:778)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:703)
+	at com.taobao.diamond.client.impl.HttpSimpleClient.httpGet(HttpSimpleClient.java:74)
+	at com.taobao.diamond.client.impl.ServerListManager.getApacheServerList(ServerListManager.java:131)
+	at com.taobao.diamond.client.impl.ServerListManager$GetServerListTask.run(ServerListManager.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2014-07-03 16:44:26,728 WARN  - apache diamond serverlist is empty!!!
+
+2014-07-03 16:47:27,344 ERROR - [serverlist] exception, java.net.SocketTimeoutException: connect timed out
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:158)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:233)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:323)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:837)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:778)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:703)
+	at com.taobao.diamond.client.impl.HttpSimpleClient.httpGet(HttpSimpleClient.java:74)
+	at com.taobao.diamond.client.impl.ServerListManager.getApacheServerList(ServerListManager.java:131)
+	at com.taobao.diamond.client.impl.ServerListManager$GetServerListTask.run(ServerListManager.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2014-07-03 16:47:27,344 WARN  - apache diamond serverlist is empty!!!
+
+2014-07-03 17:23:02,988 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 17:23:03,033 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 17:23:04,041 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 17:23:04,041 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 17:23:04,041 INFO  - ########## environment ok.
+
+2014-07-03 17:23:04,132 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 17:23:04,132 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 17:23:04,133 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 17:23:04,133 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 17:23:04,133 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 17:23:04,133 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 17:23:04,134 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@7f8062
+
+2014-07-03 17:23:04,722 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 17:23:04,722 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 17:23:04,743 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 17:23:04,743 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 17:23:04,755 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 17:23:04,755 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 17:23:04,787 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 17:23:04,787 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 17:23:04,925 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 17:23:04,925 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 17:23:04,944 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 17:23:04,944 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 17:23:04,957 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 17:23:04,957 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 17:23:05,024 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 17:23:05,025 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 17:23:15,049 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 17:23:15,050 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 17:23:33,768 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@bf0c4b
+
+2014-07-03 17:23:33,774 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@21c2c2
+
+2014-07-03 17:23:33,789 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@6e5269
+
+2014-07-03 17:23:33,790 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@146a250
+
+2014-07-03 17:24:04,290 ERROR - [serverlist] exception, java.net.SocketTimeoutException: connect timed out
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:158)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:233)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:323)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:837)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:778)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:703)
+	at com.taobao.diamond.client.impl.HttpSimpleClient.httpGet(HttpSimpleClient.java:74)
+	at com.taobao.diamond.client.impl.ServerListManager.getApacheServerList(ServerListManager.java:131)
+	at com.taobao.diamond.client.impl.ServerListManager$GetServerListTask.run(ServerListManager.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2014-07-03 17:24:04,296 WARN  - apache diamond serverlist is empty!!!
+
+2014-07-03 17:25:01,389 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 17:25:01,425 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 17:25:02,438 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 17:25:02,438 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 17:25:02,439 INFO  - ########## environment ok.
+
+2014-07-03 17:25:02,509 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 17:25:02,509 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 17:25:02,510 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 17:25:02,510 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 17:25:02,511 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 17:25:02,511 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 17:25:02,511 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@3e5a91
+
+2014-07-03 17:25:03,144 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 17:25:03,144 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 17:25:03,157 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 17:25:03,157 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 17:25:03,170 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 17:25:03,170 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 17:25:03,228 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 17:25:03,230 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 17:25:06,399 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 17:25:06,400 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 17:25:06,432 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 17:25:06,432 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 17:25:06,446 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 17:25:06,446 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 17:25:06,492 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 17:25:06,492 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 17:25:16,521 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 17:25:16,521 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 17:25:32,144 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@184f829
+
+2014-07-03 17:25:32,147 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1e2372a
+
+2014-07-03 17:25:32,159 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@17ab035
+
+2014-07-03 17:25:32,162 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@e2a7f8
+
+2014-07-03 18:17:26,429 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 18:17:26,463 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:17:27,475 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:17:27,476 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:17:27,476 INFO  - ########## environment ok.
+
+2014-07-03 18:17:27,541 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 18:17:27,542 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:17:27,542 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 18:17:27,542 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:17:27,542 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 18:17:27,543 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:17:27,543 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@e8a0cd
+
+2014-07-03 18:17:28,128 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 18:17:28,128 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:17:28,139 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 18:17:28,139 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:17:28,165 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 18:17:28,165 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 18:17:28,200 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 18:17:28,201 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 18:17:28,341 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 18:17:28,342 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 18:17:28,389 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 18:17:28,389 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:17:28,423 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 18:17:28,423 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 18:17:28,473 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 18:17:28,474 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 18:17:38,475 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 18:17:38,476 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 18:17:57,112 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@58f8c8
+
+2014-07-03 18:17:57,115 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@61b83a
+
+2014-07-03 18:17:57,128 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1f713af
+
+2014-07-03 18:17:57,129 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@c31ebe
+
+2014-07-03 18:18:33,060 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 18:18:33,091 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:18:34,101 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:18:34,101 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:18:34,101 INFO  - ########## environment ok.
+
+2014-07-03 18:18:34,183 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 18:18:34,183 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:18:34,183 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 18:18:34,184 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:18:34,184 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 18:18:34,184 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:18:34,185 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@45378f
+
+2014-07-03 18:18:34,790 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 18:18:34,790 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:18:34,800 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 18:18:34,800 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:18:34,816 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 18:18:34,816 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 18:18:34,851 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 18:18:34,852 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 18:18:35,008 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 18:18:35,008 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 18:18:35,025 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 18:18:35,025 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:18:35,035 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 18:18:35,035 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 18:18:35,087 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 18:18:35,088 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 18:18:45,124 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 18:18:45,124 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 18:19:03,739 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@81f721
+
+2014-07-03 18:19:03,742 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@787909
+
+2014-07-03 18:19:03,756 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@4537f1
+
+2014-07-03 18:19:03,757 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@15778df
+
+2014-07-03 18:22:06,278 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 18:22:06,305 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:22:07,316 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:22:07,316 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:22:07,317 INFO  - ########## environment ok.
+
+2014-07-03 18:22:07,418 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 18:22:07,418 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:22:07,418 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 18:22:07,419 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:22:07,419 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 18:22:07,419 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:22:08,021 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 18:22:08,021 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:22:08,032 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 18:22:08,032 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:22:08,048 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 18:22:08,048 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 18:22:08,098 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 18:22:08,098 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 18:22:08,245 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 18:22:08,245 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 18:22:08,263 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 18:22:08,264 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:22:08,288 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 18:22:08,289 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 18:22:08,331 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 18:22:08,332 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 18:22:18,352 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 18:22:18,352 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 18:22:37,018 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@17f146b
+
+2014-07-03 18:22:37,026 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1937ef8
+
+2014-07-03 18:22:37,039 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@5c09ea
+
+2014-07-03 18:22:37,040 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@c2034e
+
+2014-07-03 18:22:37,040 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1671612
+
+2014-07-03 18:27:45,295 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 18:27:45,334 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:27:46,341 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:27:46,341 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:27:46,341 INFO  - ########## environment ok.
+
+2014-07-03 18:27:46,430 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 18:27:46,430 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:27:46,430 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 18:27:46,431 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:27:46,431 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 18:27:46,431 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:27:47,034 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 18:27:47,034 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:27:47,045 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 18:27:47,045 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:27:47,057 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 18:27:47,057 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 18:27:47,090 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 18:27:47,091 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 18:27:47,242 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 18:27:47,244 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 18:27:47,260 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 18:27:47,261 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:27:47,272 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 18:27:47,272 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 18:27:47,344 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 18:27:47,345 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 18:27:57,343 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 18:27:57,344 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 18:28:58,539 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 18:28:58,571 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:28:59,581 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:28:59,581 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:28:59,581 INFO  - ########## environment ok.
+
+2014-07-03 18:28:59,658 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 18:28:59,658 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:28:59,658 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 18:28:59,659 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:28:59,659 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 18:28:59,659 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:28:59,660 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@e8a0cd
+
+2014-07-03 18:29:00,268 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 18:29:00,268 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:29:00,307 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 18:29:00,307 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:29:00,324 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 18:29:00,325 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 18:29:00,370 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 18:29:00,371 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 18:29:00,505 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 18:29:00,505 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 18:29:00,524 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 18:29:00,524 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:29:00,537 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 18:29:00,537 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 18:29:00,580 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 18:29:00,580 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 18:29:10,630 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 18:29:10,631 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 18:29:29,229 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@11fdad9
+
+2014-07-03 18:29:29,237 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@355f9c
+
+2014-07-03 18:29:29,248 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@15aae98
+
+2014-07-03 18:29:29,249 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@be7cad
+
+2014-07-03 18:38:34,386 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 18:38:34,419 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:38:35,433 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:38:35,433 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:38:35,433 INFO  - ########## environment ok.
+
+2014-07-03 18:38:35,605 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 18:38:35,606 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:38:35,606 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 18:38:35,607 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:38:35,607 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 18:38:35,607 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:38:36,213 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 18:38:36,214 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:38:36,224 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 18:38:36,224 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:38:36,245 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 18:38:36,245 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 18:38:36,275 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 18:38:36,276 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 18:38:36,413 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 18:38:36,414 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 18:38:36,432 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 18:38:36,432 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:38:36,450 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 18:38:36,450 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 18:38:36,509 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 18:38:36,510 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 18:38:46,522 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 18:38:46,523 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 18:39:05,202 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@130b97d
+
+2014-07-03 18:39:05,207 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1f14fd
+
+2014-07-03 18:39:05,217 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1c7956b
+
+2014-07-03 18:39:05,217 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@22e349
+
+2014-07-03 18:39:05,217 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@12c0b3f
+
+2014-07-03 18:40:27,436 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 18:40:27,462 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:40:28,483 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:40:28,484 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:40:28,484 INFO  - ########## environment ok.
+
+2014-07-03 18:40:28,556 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 18:40:28,556 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:40:28,556 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 18:40:28,557 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:40:28,557 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 18:40:28,557 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:40:28,558 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@c017e9
+
+2014-07-03 18:40:29,189 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 18:40:29,189 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:40:29,199 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 18:40:29,199 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:40:29,212 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 18:40:29,212 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 18:40:29,246 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 18:40:29,247 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 18:40:29,404 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 18:40:29,405 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 18:40:29,441 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 18:40:29,441 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:40:29,451 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 18:40:29,451 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 18:40:29,517 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 18:40:29,518 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 18:40:39,522 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 18:40:39,523 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 18:40:58,131 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@17ccb2f
+
+2014-07-03 18:40:58,135 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@383244
+
+2014-07-03 18:40:58,148 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1a2467a
+
+2014-07-03 18:40:58,150 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@11201a1
+
+2014-07-03 18:42:21,218 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 18:42:21,249 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:42:22,255 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:42:22,256 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 18:42:22,256 INFO  - ########## environment ok.
+
+2014-07-03 18:42:22,351 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 18:42:22,351 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:42:22,351 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 18:42:22,352 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:42:22,352 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 18:42:22,352 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 18:42:22,353 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@c10de0
+
+2014-07-03 18:42:22,966 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 18:42:22,966 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:42:22,980 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 18:42:22,980 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:42:23,003 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 18:42:23,003 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 18:42:23,038 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 18:42:23,038 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 18:42:23,187 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 18:42:23,187 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 18:42:23,203 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 18:42:23,204 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 18:42:23,214 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 18:42:23,214 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 18:42:23,263 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 18:42:23,263 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 18:42:33,332 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 18:42:33,332 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 18:42:51,944 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@3e8ad1
+
+2014-07-03 18:42:51,949 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@11201a1
+
+2014-07-03 18:42:51,959 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1feb3a6
+
+2014-07-03 18:42:51,961 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@e9493a
+
+2014-07-03 19:05:01,416 WARN  - [check-update] get changed dataId exception, java.io.IOException: timeout
+
+2014-07-03 19:25:28,286 ERROR - [serverlist] exception, java.net.SocketTimeoutException: Read timed out
+
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:129)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:218)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:258)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:317)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:687)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:632)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1049)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:373)
+	at com.taobao.diamond.client.impl.HttpSimpleClient.httpGet(HttpSimpleClient.java:75)
+	at com.taobao.diamond.client.impl.ServerListManager.getApacheServerList(ServerListManager.java:131)
+	at com.taobao.diamond.client.impl.ServerListManager$GetServerListTask.run(ServerListManager.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2014-07-03 19:25:28,292 WARN  - apache diamond serverlist is empty!!!
+
+2014-07-03 19:41:40,909 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 19:41:40,972 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:41:41,984 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:41:41,984 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:41:41,984 INFO  - ########## environment ok.
+
+2014-07-03 19:41:42,044 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 19:41:42,044 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:41:42,044 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 19:41:42,044 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:41:42,045 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 19:41:42,045 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:41:42,653 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 19:41:42,653 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:41:42,663 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 19:41:42,663 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:41:42,675 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 19:41:42,675 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 19:41:42,734 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 19:41:42,734 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 19:41:42,875 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 19:41:42,875 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 19:41:42,893 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 19:41:42,893 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:41:42,932 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 19:41:42,933 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 19:41:42,984 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 19:41:42,987 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 19:41:52,975 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 19:41:52,975 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 19:42:11,678 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1c1f2
+
+2014-07-03 19:42:11,682 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1feb3a6
+
+2014-07-03 19:42:11,693 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1d3ac6e
+
+2014-07-03 19:42:11,693 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@a224b5
+
+2014-07-03 19:42:11,694 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@117ee94
+
+2014-07-03 19:43:44,313 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 19:43:44,363 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:43:45,374 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:43:45,374 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:43:45,374 INFO  - ########## environment ok.
+
+2014-07-03 19:43:45,441 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 19:43:45,442 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:43:45,442 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 19:43:45,442 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:43:45,442 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 19:43:45,443 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:43:46,078 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 19:43:46,078 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:43:46,094 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 19:43:46,095 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:43:46,110 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 19:43:46,110 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 19:43:46,170 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 19:43:46,170 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 19:43:46,313 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 19:43:46,313 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 19:43:46,359 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 19:43:46,359 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:43:46,370 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 19:43:46,370 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 19:43:46,418 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 19:43:46,418 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 19:43:56,443 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 19:43:56,443 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 19:44:15,010 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@19a639b
+
+2014-07-03 19:44:15,014 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1880543
+
+2014-07-03 19:44:15,025 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@17ccb2f
+
+2014-07-03 19:44:15,025 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@1ff8de3
+
+2014-07-03 19:44:15,026 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@bc448b
+
+2014-07-03 19:45:53,501 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 19:45:53,533 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:45:54,539 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:45:54,539 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:45:54,539 INFO  - ########## environment ok.
+
+2014-07-03 19:45:54,619 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 19:45:54,620 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:45:54,620 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 19:45:54,620 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:45:54,620 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 19:45:54,621 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:45:54,621 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@7f8062
+
+2014-07-03 19:45:55,351 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 19:45:55,351 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:45:55,362 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 19:45:55,362 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:45:55,375 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 19:45:55,375 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 19:45:55,419 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 19:45:55,419 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 19:45:55,610 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 19:45:55,611 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 19:45:55,632 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 19:45:55,632 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:45:55,644 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 19:45:55,644 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 19:45:55,691 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 19:45:55,692 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 19:46:05,742 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 19:46:05,742 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 19:46:36,556 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 19:46:36,585 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:46:37,591 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:46:37,591 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:46:37,591 INFO  - ########## environment ok.
+
+2014-07-03 19:46:37,701 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 19:46:37,701 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:46:37,701 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 19:46:37,702 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:46:37,702 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 19:46:37,702 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:46:37,706 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@75f5b7
+
+2014-07-03 19:46:38,444 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 19:46:38,444 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:46:38,485 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 19:46:38,485 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:46:38,506 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 19:46:38,506 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 19:46:38,539 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 19:46:38,539 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 19:46:38,761 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 19:46:38,762 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 19:46:38,795 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 19:46:38,795 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:46:38,832 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 19:46:38,833 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 19:46:38,949 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 19:46:38,949 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 19:46:48,875 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 19:46:48,876 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 19:47:07,275 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@b17e0a
+
+2014-07-03 19:47:07,279 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@e6c6d7
+
+2014-07-03 19:47:07,294 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@4b35ef
+
+2014-07-03 19:47:07,295 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@11c5c88
+
+2014-07-03 19:48:29,361 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 19:48:29,395 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:48:30,398 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:48:30,398 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:48:30,398 INFO  - ########## environment ok.
+
+2014-07-03 19:48:30,501 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 19:48:30,502 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:48:30,502 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 19:48:30,502 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:48:30,502 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 19:48:30,502 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:48:30,503 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@1531164
+
+2014-07-03 19:48:31,218 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 19:48:31,218 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:48:31,236 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 19:48:31,236 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:48:31,272 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 19:48:31,272 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 19:48:31,306 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 19:48:31,306 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 19:48:31,568 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 19:48:31,569 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 19:48:31,602 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 19:48:31,603 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:48:31,621 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 19:48:31,621 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 19:48:31,670 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 19:48:31,670 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 19:48:41,712 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 19:48:41,713 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 19:49:00,078 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@2130c2
+
+2014-07-03 19:49:00,084 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@b17e0a
+
+2014-07-03 19:49:00,099 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@adf91
+
+2014-07-03 19:49:00,100 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@26efd3
+
+2014-07-03 19:50:11,723 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 19:50:11,752 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:50:12,756 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:50:12,757 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 19:50:12,757 INFO  - ########## environment ok.
+
+2014-07-03 19:50:12,812 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 19:50:12,812 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:50:12,813 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 19:50:12,814 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:50:12,814 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 19:50:12,814 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 19:50:13,533 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 19:50:13,533 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:50:13,543 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 19:50:13,543 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:50:13,558 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 19:50:13,558 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 19:50:13,590 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 19:50:13,590 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 19:50:13,776 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 19:50:13,777 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 19:50:13,797 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 19:50:13,797 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 19:50:13,807 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 19:50:13,807 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 19:50:13,882 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 19:50:13,882 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 19:50:23,914 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 19:50:23,915 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 19:50:42,377 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@820846
+
+2014-07-03 19:50:42,383 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1fba2af
+
+2014-07-03 19:50:42,398 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@ba8180
+
+2014-07-03 19:50:42,398 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@17366cb
+
+2014-07-03 19:50:42,399 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@161b0bc
+
+2014-07-03 20:03:44,216 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 20:03:44,251 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 20:03:45,261 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 20:03:45,261 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 20:03:45,261 INFO  - ########## environment ok.
+
+2014-07-03 20:03:45,332 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 20:03:45,332 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 20:03:45,332 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 20:03:45,333 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 20:03:45,333 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 20:03:45,333 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 20:03:45,334 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@8a1977
+
+2014-07-03 20:03:45,958 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 20:03:45,959 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 20:03:45,969 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 20:03:45,970 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 20:03:45,982 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 20:03:45,983 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 20:03:46,019 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 20:03:46,019 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 20:03:46,187 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 20:03:46,187 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 20:03:46,217 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 20:03:46,218 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 20:03:46,228 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 20:03:46,229 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 20:03:46,274 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 20:03:46,275 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 20:03:56,301 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 20:03:56,302 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 20:04:14,903 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@6aade
+
+2014-07-03 20:04:14,907 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@ba86ef
+
+2014-07-03 20:04:14,919 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@106989e
+
+2014-07-03 20:04:14,920 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@cf9bf0
+
+2014-07-03 20:12:08,916 WARN  - [check-update] get changed dataId exception, java.io.IOException: timeout
+
+2014-07-03 20:19:27,303 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 20:19:27,331 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 20:19:28,346 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 20:19:28,346 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 20:19:28,346 INFO  - ########## environment ok.
+
+2014-07-03 20:19:28,399 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 20:19:28,399 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 20:19:28,399 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 20:19:28,400 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 20:19:28,400 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 20:19:28,400 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 20:19:28,401 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@75f5b7
+
+2014-07-03 20:19:29,018 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 20:19:29,018 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 20:19:29,030 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 20:19:29,030 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 20:19:29,047 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 20:19:29,047 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 20:19:29,083 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 20:19:29,083 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 20:19:29,231 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 20:19:29,231 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 20:19:29,255 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 20:19:29,256 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 20:19:29,272 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 20:19:29,272 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 20:19:29,312 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 20:19:29,313 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 20:19:39,354 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 20:19:39,354 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 20:19:57,971 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1c4bcda
+
+2014-07-03 20:19:57,976 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@19a639b
+
+2014-07-03 20:19:57,986 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@aad0b
+
+2014-07-03 20:19:57,987 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1087be0
+
+2014-07-03 20:23:52,631 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 20:23:52,674 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 20:23:53,691 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 20:23:53,693 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 20:23:53,694 INFO  - ########## environment ok.
+
+2014-07-03 20:23:53,749 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 20:23:53,749 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 20:23:53,750 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 20:23:53,750 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 20:23:53,750 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 20:23:53,750 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 20:23:53,753 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@7f8062
+
+2014-07-03 20:23:54,349 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 20:23:54,349 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 20:23:54,362 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 20:23:54,362 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 20:23:54,375 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 20:23:54,375 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 20:23:54,410 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 20:23:54,410 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 20:23:54,558 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 20:23:54,559 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 20:23:54,584 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 20:23:54,584 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 20:23:54,595 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 20:23:54,595 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 20:23:54,663 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 20:23:54,663 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 20:24:04,690 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 20:24:04,691 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 20:24:23,341 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@16c1bce
+
+2014-07-03 20:24:23,350 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1adfbe3
+
+2014-07-03 20:24:23,360 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1ce835b
+
+2014-07-03 20:24:23,361 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@11201a1
+
+2014-07-03 20:45:37,241 WARN  - [http-simple-client] diamond-client connect timeout : 100
+
+2014-07-03 20:45:37,267 INFO  - [ServerManager-default] updated to [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 20:45:38,279 INFO  - [apache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 20:45:38,279 INFO  - [cache-urls] [10.101.104.50, 10.101.104.55, 10.101.104.88, 10.101.105.103]
+
+2014-07-03 20:45:38,279 INFO  - ########## environment ok.
+
+2014-07-03 20:45:38,349 INFO  - [subscribe] com.ali.unit.forbiddenuserrule+DEFAULT_GROUP
+
+2014-07-03 20:45:38,349 INFO  - [add-listener] ok, com.ali.unit.forbiddenuserrule, DEFAULT_GROUP, count=1
+
+2014-07-03 20:45:38,349 INFO  - [subscribe] com.ali.unit.routerule+DEFAULT_GROUP
+
+2014-07-03 20:45:38,350 INFO  - [add-listener] ok, com.ali.unit.routerule, DEFAULT_GROUP, count=1
+
+2014-07-03 20:45:38,350 INFO  - [subscribe] com.ali.unit.apprule+DEFAULT_GROUP
+
+2014-07-03 20:45:38,350 INFO  - [add-listener] ok, com.ali.unit.apprule, DEFAULT_GROUP, count=1
+
+2014-07-03 20:45:38,351 INFO  - [notify-ok] com.ali.unit.routerule, DEFAULT_GROUP, md5=cbf91e0843c75f30b16b9df0750c9c32, listener=com.ali.unit.rule.Router$RouteRuleListener@6127da
+
+2014-07-03 20:45:38,971 INFO  - [subscribe] test-classes.GROUPINGRULE+HSF
+
+2014-07-03 20:45:38,971 INFO  - [add-listener] ok, test-classes.GROUPINGRULE, HSF, count=1
+
+2014-07-03 20:45:38,981 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 20:45:38,981 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 20:45:38,993 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 20:45:38,993 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 20:45:39,049 INFO  - [subscribe] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES+HSF
+
+2014-07-03 20:45:39,049 INFO  - [add-listener] ok, com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 20:45:39,199 INFO  - [subscribe] HSF.GLOBAL.CONFIGURATION+HSF
+
+2014-07-03 20:45:39,199 INFO  - [add-listener] ok, HSF.GLOBAL.CONFIGURATION, HSF, count=1
+
+2014-07-03 20:45:39,221 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE+HSF
+
+2014-07-03 20:45:39,222 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.GROUPINGRULE, HSF, count=1
+
+2014-07-03 20:45:39,258 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE+HSF
+
+2014-07-03 20:45:39,258 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.dailyWEIGHTINGRULE, HSF, count=1
+
+2014-07-03 20:45:39,301 INFO  - [subscribe] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES+HSF
+
+2014-07-03 20:45:39,301 INFO  - [add-listener] ok, com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, count=1
+
+2014-07-03 20:45:49,314 INFO  - [subscribe] com.taobao.hsf.redis+HSF
+
+2014-07-03 20:45:49,315 INFO  - [add-listener] ok, com.taobao.hsf.redis, HSF, count=1
+
+2014-07-03 20:46:07,919 INFO  - [notify-ok] HSF.GLOBAL.CONFIGURATION, HSF, md5=a18a18f1b5b425bc130fe163b0fe1577, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@307c44
+
+2014-07-03 20:46:07,923 INFO  - [notify-ok] com.tmall.tmpp.common.service.IItemPromotionReadService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@12ae2bc
+
+2014-07-03 20:46:07,935 INFO  - [notify-ok] com.taobao.hsf.redis, HSF, md5=f3ad71431b4ed76f5018afe5e7fd672e, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@1461b5b
+
+2014-07-03 20:46:07,936 INFO  - [notify-ok] com.taobao.item.service.ItemQueryService:1.0.0.daily.RULES, HSF, md5=3a6e4f9ab2541643a9731a1d9467f517, listener=com.taobao.hsf.diamond.manager.DiamondGovernanceServiceImpl$1@ef9525
+
+2014-07-03 21:02:09,686 ERROR - [serverlist] exception, java.net.SocketTimeoutException: connect timed out
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:158)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:394)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:529)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:233)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:306)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:323)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:837)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:778)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:703)
+	at com.taobao.diamond.client.impl.HttpSimpleClient.httpGet(HttpSimpleClient.java:74)
+	at com.taobao.diamond.client.impl.ServerListManager.getApacheServerList(ServerListManager.java:131)
+	at com.taobao.diamond.client.impl.ServerListManager$GetServerListTask.run(ServerListManager.java:102)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:181)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:205)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:619)
+2014-07-03 21:02:09,698 WARN  - apache diamond serverlist is empty!!!
+
