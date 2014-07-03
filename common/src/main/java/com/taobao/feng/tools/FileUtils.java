@@ -124,6 +124,7 @@ public class FileUtils {
 				lines.add(line);
 			}
 		}
+		br.close();
 		return lines;
 	}
 
@@ -136,6 +137,7 @@ public class FileUtils {
 				lines.add(line);
 			}
 		}
+		br.close();
 		return lines;
 	}
 

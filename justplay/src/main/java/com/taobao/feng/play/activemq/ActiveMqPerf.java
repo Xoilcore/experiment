@@ -17,7 +17,7 @@ import org.apache.activemq.broker.BrokerService;
 import org.apache.activemq.command.ActiveMQQueue;
 
 import com.google.common.collect.Queues;
-import com.taobao.feng.tools.FPSCounter;
+import com.taobao.feng.tools.QpsCounter;
 import com.taobao.feng.tools.ServerClient;
 
 
@@ -88,8 +88,8 @@ public class ActiveMqPerf extends ServerClient implements MessageListener {
 
 	String text;
 
-	FPSCounter sendFps = new FPSCounter("sendMsg");
-	FPSCounter consumerFps = new FPSCounter(
+	QpsCounter sendFps = new QpsCounter("sendMsg");
+	QpsCounter consumerFps = new QpsCounter(
 			"----------------------->consumerMsg");
 
 	boolean init = false;

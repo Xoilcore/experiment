@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">  
+  
+<log4j:configuration>  
+  
+ <appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">  
+  <layout class="org.apache.log4j.PatternLayout">  
+   <param name="ConversionPattern"  
+    value="%d - %c -%-4r [%t] %-5p %x - %m%n" />  
+  </layout>  
+    
+  <!--限制输出级别-->  
+  <filter class="org.apache.log4j.varia.LevelRangeFilter">  
+   <param name="LevelMax" value="ERROR"/>  
+   <param name="LevelMin" value="TRACE"/>  
+  </filter>  
+ </appender>  
+   
+ <appender name="stat" class="org.apache.log4j.FileAppender">  
+  <param name="File" value="F:tmp/log/stat.log"/>  
+  <layout class="org.apache.log4j.PatternLayout">  
+   <param name="ConversionPattern"  
+    value="%d - %c -%-4r [%t] %-5p %x - %m%n" />  
+  </layout>  
+ </appender> 
+   
+ <appender name="main" class="org.apache.log4j.FileAppender">  
+  <param name="File" value="F:tmp/log/main.log"/>  
+  <layout class="org.apache.log4j.PatternLayout">  
+   <param name="ConversionPattern"  
+    value="%d - %c -%-4r [%t] %-5p %x - %m%n" />  
+  </layout>  
+ </appender>   
+
+ <!--通过<logger></logger>的定义可以将各个包中的类日志输出到不同的日志文件中-->  
+
+ 
+ <logger name="com" additivity="false">     
+        <level value="WARN" />     
+        <appender-ref ref="CONSOLE" />     
+ </logger>  
+  
+
+ <!--通过<logger></logger>的定义可以将各个包中的类日志输出到不同的日志文件中-->  
+ <logger name="stat" additivity="false">     
+        <level value="INFO" />     
+        <appender-ref ref="stat" />     
+ </logger>  
+   
+ <root>  
+  <appender-ref ref="CONSOLE" />  
+ </root>  
+  
+  
+</log4j:configuration>  

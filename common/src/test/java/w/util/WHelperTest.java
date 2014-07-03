@@ -8,7 +8,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.taobao.feng.tools.FPSCounter;
+import com.taobao.feng.tools.QpsCounter;
 import com.taobao.feng.tools.FileUtils;
 import com.taobao.feng.tools.WHelper;
 
@@ -18,7 +18,7 @@ public class WHelperTest {
 
 	@Test
 	public void testIkSeg() throws IOException {
-		FPSCounter qps = new FPSCounter("seg2");
+		QpsCounter qps = new QpsCounter("seg2");
 
 		p(WHelper.ikSeg("你好中国"));
 
